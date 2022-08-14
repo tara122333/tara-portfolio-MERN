@@ -2,6 +2,7 @@ import Navbar from "./component/Navbar/Navbar";
 import Hero from "./component/Hero/Hero";
 import Service from "./component/service/service";
 import Experience from "./component/Experience/Experience";
+import Work from "./component/Work/Work";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       </div>
       <div className="mt-96 md:mt-0">
         <Experience/>
+      </div>
+      <div>
+        <Work />
       </div>
     </>
   );

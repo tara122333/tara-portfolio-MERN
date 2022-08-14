@@ -12,7 +12,7 @@ import Card from '../Card/Card';
 
 const Service = () => {
 
-    const transition = { duration: 2, type: "spring" };
+    const transition = { duration: 1, type: "spring" };
 
   return (
     <>
