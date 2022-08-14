@@ -1,10 +1,9 @@
+import Navbar from "./component/Navbar/Navbar";
 
 function App() {
   return (
     <>
-      <div className="text-red-400 bg-black">
-        This is 
-      </div>
+      <Navbar/>
     </>
   );
 }
