@@ -1,4 +1,0 @@
-this is my portfolio website node,mongo,ejs,and bootstrap
-
-yt by thapa technical
-
