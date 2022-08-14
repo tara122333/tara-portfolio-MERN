@@ -20,7 +20,8 @@ const NavbarLG = () =>{
                             <li className='text-xl font-medium hover:text-tara-orange'>Testimonal</li>
                         </ul>
                     </div>
-                    <button className='bg-gradient-to-r from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow'>Contact</button>
+                    <button className='bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow hover:bg-gradient-to-r
+                    hover:from-white hover:to-white hover:text-tara-yellow hover:shadow-none'>Contact</button>
                 </div>
             </div>
         </>

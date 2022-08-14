@@ -31,7 +31,8 @@ const Hero = () => {
                     <span className='text-gray-600'>Frontend Developer with high level of experience in web designing and development, producting the Quality work</span>
                 </div>
                 <div className='my-8'>
-                    <button className='bg-gradient-to-r from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow'>Hire Me</button>
+                    <button className='bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow hover:bg-gradient-to-r
+                    hover:from-white hover:to-white hover:text-tara-yellow hover:shadow-none'>Hire Me</button>
                 </div>
                 <div className='my-8 flex gap-10 justify-center items-center md:justify-start'>
                     <div className='w-14 h-14 lg:w-16 lg:h-16'>

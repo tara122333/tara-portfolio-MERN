@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
+import Resume from './resume.pdf';
 
 import Card from '../Card/Card';
 
@@ -25,7 +26,10 @@ const Service = () => {
                     <span className='text-gray-600'>Frontend Developer with high level of experience in web designing and development, producting the Quality work</span>
                 </div>
                 <div className='my-8'>
-                    <button className='bg-gradient-to-r from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow'>Download CV</button>
+                    <a href={Resume} download>
+                        <button className='bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow hover:bg-gradient-to-r
+                    hover:from-white hover:to-white hover:text-tara-yellow hover:shadow-none'>Download CV</button>
+                    </a>
                 </div>
                 {/* <div className="relative my-96 w-96 h-72 rounded-full bg-tara-purple blur-3xl -z-10 top-96 -left-96" style={{ background: "#ABF1FF94" }}></div> */}
             </div>
