@@ -82,7 +82,7 @@ const Service = () => {
             </div>
 
 
-            <div className='flex md:hidden relative w-full h-full flex-wrap'>
+            <div className='flex md:hidden relative w-full h-full flex-wrap mb-96'>
             <motion.div
           initial={{ left: "0rem" }}
           whileInView={{ left: "10rem" }}
