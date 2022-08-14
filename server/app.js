@@ -1,3 +1,6 @@
+require("dotenv").config();
+
+
 // import library
 const express = require("express"); // require express
 const mongoose = require("./db/conn"); // conn.js

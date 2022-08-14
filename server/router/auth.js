@@ -5,6 +5,7 @@ const User = require("../model/userSchema");
 
 const router = express.Router();
 
+
 /* 
 url = /
 params = none
@@ -47,6 +48,8 @@ router.post("/signup",async(req,res)=>{
     
 
 });
+
+
 
 
 /* 

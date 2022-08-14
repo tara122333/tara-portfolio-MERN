@@ -1,1 +1,4 @@
-this is my portfolio website using MERN stack Web development 
+this is my portfolio website node,mongo,ejs,and bootstrap
+
+yt by thapa technical
+
