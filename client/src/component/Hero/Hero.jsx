@@ -12,13 +12,8 @@ import boy from "../../img/boy.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
-
-
-import FloatinDiv from '../FloatingDiv/FloatingDiv';
-
 const Hero = () => {
-    const transition = { duration: 2, type: "spring" };
-    
+
   return (
     <>
         <div className='px-4 lg:container lg:mx-auto lg:px-16 my-10 flex flex-col lg:flex-row w-full'>
@@ -56,47 +51,8 @@ const Hero = () => {
                 <div className='absolute z-30 w-96 md:scale-125 md:left-40 md:-top-3 lg:top-10 lg:left-48 lg:scale-110'>
                     <img src={boy} alt="vector" className='w-full h-full'/>
                 </div>
-
-            <motion.img
-            initial={{ left: "-36%" }}
-            whileInView={{ left: "-24%" }}
-            transition={transition}
-            src={glassesimoji}
-            alt=""
-            />
-
-            <motion.div
-            initial={{ top: "-4%", left: "74%" }}
-            whileInView={{ left: "68%" }}
-            transition={transition}
-            className="floating-div"
-            >
-            <FloatinDiv img={crown} text1="Web" text2="Developer" />
-            </motion.div>
-
-            {/* animation */}
-            <motion.div
-            initial={{ left: "9rem", top: "18rem" }}
-            whileInView={{ left: "0rem" }}
-            transition={transition}
-            className="floating-div"
-            >
-            {/* floatinDiv mein change hy dark mode ka */}
-            <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
-            </motion.div>
-
-            
-            <div className="relative w-40 h-40 rounded-full bg-tara-purple blur-md -z-10 left-2/4 -top-5" style={{ background: "rgb(238 210 255)" }}></div>
-            <div
-            className="relative rounded-full bg-red-500 blur-md -z-10"
-            style={{
-                background: "#C1F5FF",
-                top: "17rem",
-                width: "21rem",
-                height: "11rem",
-                left: "-15rem",
-            }}
-            ></div>
+            <div className="relative w-96 h-72 rounded-full bg-tara-orange blur-3xl -z-10 left-2/4 -top-5" style={{ background: "rgb(138 210 255)" }}></div>
+            <div className="relative w-96 h-72 rounded-full bg-tara-purple blur-3xl -z-10 top-96 -left-96" style={{ background: "rgb(238 210 255)" }}></div>
             </div>
         </div>
     </>
