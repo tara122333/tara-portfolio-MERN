@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-scroll";
 
 
 const NavbarLG = () =>{
@@ -13,15 +13,37 @@ const NavbarLG = () =>{
                 <div className='flex gap-9 items-center'>
                     <div>
                         <ul className='flex gap-9'>
-                            <li className='text-xl font-medium hover:text-tara-orange'>Home</li>
-                            <li className='text-xl font-medium hover:text-tara-orange'>Service</li>
-                            <li className='text-xl font-medium hover:text-tara-orange'>Experience</li>
-                            <li className='text-xl font-medium hover:text-tara-orange'>Portfolio</li>
-                            <li className='text-xl font-medium hover:text-tara-orange'>Testimonal</li>
+                            <li className='text-xl font-medium hover:text-tara-orange'>
+                            <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
+                                Home
+                            </Link>
+                            </li>
+                            <li className='text-xl font-medium hover:text-tara-orange'>
+                            <Link activeClass="active" to="services" spy={true} smooth={true}>
+                                Services
+                            </Link>
+                            </li>
+                            <li className='text-xl font-medium hover:text-tara-orange'>
+                            <Link activeClass="active" to="works" spy={true} smooth={true}>
+                            Experience
+                            </Link></li>
+                            <li className='text-xl font-medium hover:text-tara-orange'>
+                            <Link activeClass="active" to="portfolio" spy={true} smooth={true}>
+                            Portfolio
+                            </Link></li>
+                            <li className='text-xl font-medium hover:text-tara-orange'>
+                            <Link activeClass="active" to="testimonial" spy={true} smooth={true}>
+                            Testimonal
+                            </Link></li>
                         </ul>
                     </div>
-                    <button className='bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow hover:bg-gradient-to-r
-                    hover:from-white hover:to-white hover:text-tara-yellow hover:shadow-none'>Contact</button>
+                    
+                    <Link to="contact" spy={true} smooth={true}>
+                        <button className='bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow hover:bg-gradient-to-r
+                        hover:from-white hover:to-white hover:text-tara-yellow hover:shadow-none'>
+                            Contact
+                        </button>
+                    </Link>
                 </div>
             </div>
         </>

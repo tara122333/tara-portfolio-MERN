@@ -16,7 +16,8 @@ const Service = () => {
 
   return (
     <>
-        <div className='px-4 lg:container lg:mx-auto lg:px-16 my-10 flex flex-col lg:flex-row w-full mt-96'>
+    <div id='services'>
+        <div className='px-4 lg:container lg:mx-auto lg:px-16 my-10 flex flex-col lg:flex-row w-full mt-96 py-10' >
             <div className='flex flex-col h-full relative w-full lg:w-1/2 mb-20 lg:mb-0'>
                 <div className='flex flex-col gap-3 py-12'>
                     <span className='text-4xl md:text-5xl lg:text-6xl'>My Awesome</span>
@@ -128,6 +129,7 @@ const Service = () => {
           />
         </motion.div>
             </div>
+        </div>
         </div>
     </>
   )

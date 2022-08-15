@@ -11,17 +11,17 @@ const Footer = () => {
       <div className="absolute flex justify-center items-center flex-col w-full gap-5 text-white sm:scale-50 md:gap-10 lg:scale-100">
         <span className="text-3xl text-gray-600 my-5">tarachand122333@gmail.com</span>
         <div className="flex gap-5">
-          <a href="https://www.google.com" target=" _blank">
+          <a href="https://github.com/tara122333" target=" _blank">
             <div className="w-10 h-10 md:w-14 md:h-14 bg-white rounded-full p-1">
               <img src={github} alt="logo" className="w-full h-full text-white"/>
             </div>
           </a>
-          <a href="https://www.google.com" target=" _blank">
+          <a href="https://www.instagram.com/tarachand1904/" target=" _blank">
             <div className="w-10 h-10 md:w-14 md:h-14 bg-white rounded-lg p-1">
               <img src={instagram} alt="logo" className="w-full h-full text-white"/>
             </div>
           </a>
-          <a href="https://www.google.com" target=" _blank">
+          <a href="https://www.linkedin.com/in/tara-chand-kumawat-5544a2216/" target=" _blank">
             <div className="w-10 h-10 md:w-14 md:h-14 bg-white rounded-lg p-2">
               <img src={linkedin} alt="logo" className="w-full h-full text-white"/>
             </div>

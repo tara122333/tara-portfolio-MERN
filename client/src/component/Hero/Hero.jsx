@@ -21,7 +21,7 @@ const Hero = () => {
 
   return (
     <>
-        <div className='px-4 lg:container lg:mx-auto lg:px-16 my-10 flex flex-col lg:flex-row w-full mb-32'>
+        <div className='px-4 lg:container lg:mx-auto lg:px-16 my-10 flex flex-col lg:flex-row w-full mb-32  lg:py-10' id='Navbar'>
             <div className='flex flex-col h-full relative w-full lg:w-1/2 mb-20'>
                 <div className='flex flex-col gap-3 py-12'>
                     <span className='text-4xl md:text-5xl lg:text-6xl'>Hy! I Am</span>
@@ -35,17 +35,17 @@ const Hero = () => {
                     hover:from-white hover:to-white hover:text-tara-yellow hover:shadow-none'>Hire Me</button>
                 </div>
                 <div className='my-8 flex gap-10 justify-center items-center md:justify-start'>
-                    <a href='https://www.google.com' target=' _blank'>
+                    <a href='https://github.com/tara122333' target=' _blank'>
                         <div className='w-14 h-14 lg:w-16 lg:h-16'>
                             <img src={github} alt="github"  className='w-full h-full'/>
                         </div>
                     </a>
-                    <a href='https://www.google.com' target=' _blank'>
+                    <a href='https://www.instagram.com/tarachand1904/' target=' _blank'>
                     <div className='w-14 h-14 lg:w-16 lg:h-16'>
                         <img src={instagram} alt="github"  className='w-full h-full'/>
                     </div>
                     </a>
-                    <a href='https://www.google.com' target=' _blank'>
+                    <a href='https://www.linkedin.com/in/tara-chand-kumawat-5544a2216/' target=' _blank'>
                     <div className='w-14 h-14 lg:w-16 lg:h-16'>
                         <img src={linkedin} alt="github"  className='w-full h-full'/>
                     </div>

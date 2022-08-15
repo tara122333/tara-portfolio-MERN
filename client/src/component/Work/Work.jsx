@@ -14,7 +14,7 @@ const Work = () => {
 
   return (
     <>
-        <div className='px-4 lg:container lg:mx-auto lg:px-16 my-10 flex flex-col lg:flex-row w-full mb-32'>
+        <div className='px-4 lg:container lg:mx-auto lg:px-16 my-10 flex flex-col lg:flex-row w-full mb-32 lg:mb-10 py-10' id='works'>
             <div className='flex flex-col h-full relative w-full lg:w-1/2 mb-20'>
                 <div className='flex flex-col gap-3 py-12'>
                     <span className='text-4xl md:text-5xl lg:text-6xl'>Works for All these</span>

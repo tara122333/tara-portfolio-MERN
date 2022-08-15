@@ -4,7 +4,7 @@ const Experience = () => {
   const darkMode = false;
 
   return (
-    <div className="experience py-96 md:py-0" id='experience'>
+    <div className="experience pt-72 md:py-0" id='experience'>
       <div className="achievement">
         {/* darkMode */}
         <div className="circle" style={{color: darkMode?'var(--orange)':''}}>8+</div>

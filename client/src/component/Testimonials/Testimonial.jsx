@@ -36,7 +36,7 @@ const Testimonial = () => {
 
   return (
     <>
-      <div className="flex justify-center items-center flex-col gap-5 relative">
+      <div className="flex justify-center items-center flex-col gap-5 relative" id="testimonial">
         <div className="items-start w-full">
           <div className='flex flex-col lg:flex-row justify-center items-center gap-6 py-12 w-full h-full'>
                 <span className='text-4xl md:text-5xl lg:text-6xl'>Clients always get</span>
