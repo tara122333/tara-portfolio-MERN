@@ -5,6 +5,7 @@ import Experience from "./component/Experience/Experience";
 import Work from "./component/Work/Work";
 import  Portfolio  from "./component/Portfolio/Portfolio";
 import Testimonial from "./component/Testimonials/Testimonial";
+import Contact from "./component/Contact/Contact";
 
 function App() {
   return (
@@ -25,7 +26,12 @@ function App() {
       <div className="my-56">
         <Portfolio />
       </div>
+      <div className="my-96">
       <Testimonial />
+      </div>
+      <div className="my-96">
+        <Contact />
+      </div>
     </>
   );
 }
