@@ -35,15 +35,23 @@ const Hero = () => {
                     hover:from-white hover:to-white hover:text-tara-yellow hover:shadow-none'>Hire Me</button>
                 </div>
                 <div className='my-8 flex gap-10 justify-center items-center md:justify-start'>
-                    <div className='w-14 h-14 lg:w-16 lg:h-16'>
-                        <img src={github} alt="github"  className='w-full h-full'/>
-                    </div>
+                    <a href='https://www.google.com' target=' _blank'>
+                        <div className='w-14 h-14 lg:w-16 lg:h-16'>
+                            <img src={github} alt="github"  className='w-full h-full'/>
+                        </div>
+                    </a>
+                    <a href='https://www.google.com' target=' _blank'>
                     <div className='w-14 h-14 lg:w-16 lg:h-16'>
                         <img src={instagram} alt="github"  className='w-full h-full'/>
                     </div>
+                    </a>
+                    <a href='https://www.google.com' target=' _blank'>
                     <div className='w-14 h-14 lg:w-16 lg:h-16'>
                         <img src={linkedin} alt="github"  className='w-full h-full'/>
                     </div>
+                    </a>
+                    
+                    
                 </div>
             </div>
             <div className='flex relative w-full h-full lg:w-1/2'>
