@@ -3,6 +3,8 @@ import Hero from "./component/Hero/Hero";
 import Service from "./component/service/service";
 import Experience from "./component/Experience/Experience";
 import Work from "./component/Work/Work";
+import  Portfolio  from "./component/Portfolio/Portfolio";
+import Testimonial from "./component/Testimonials/Testimonial";
 
 function App() {
   return (
@@ -20,6 +22,10 @@ function App() {
       <div>
         <Work />
       </div>
+      <div className="my-56">
+        <Portfolio />
+      </div>
+      <Testimonial />
     </>
   );
 }

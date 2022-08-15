@@ -12,8 +12,6 @@ import "./Works.css";
 
 const Work = () => {
 
-    const transition = { duration: 2, type: "spring" };
-
   return (
     <>
         <div className='px-4 lg:container lg:mx-auto lg:px-16 my-10 flex flex-col lg:flex-row w-full mb-32'>
@@ -36,8 +34,8 @@ ispum is simpley dummy text of printing</span>
             <div className='flex relative w-full h-full lg:w-1/2'>
                 <motion.div
                 initial={{ rotate: 45 }}
-                whileInView={{ rotate: 0 }}
-                viewport={{ margin: "-40px" }}
+                whileInView={{ rotate: 0}}
+                viewport={{ margin: "10px" }}
                 transition={{ duration: 3.5, type: "spring" }}
                 className="w-mainCircle shadow-2xl "
                 >
