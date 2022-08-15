@@ -6,6 +6,7 @@ import Work from "./component/Work/Work";
 import  Portfolio  from "./component/Portfolio/Portfolio";
 import Testimonial from "./component/Testimonials/Testimonial";
 import Contact from "./component/Contact/Contact";
+import Footer from "./component/Footer/Footer";
 
 function App() {
   return (
@@ -29,8 +30,11 @@ function App() {
       <div className="my-96">
       <Testimonial />
       </div>
-      <div className="my-96">
+      <div className="mt-96">
         <Contact />
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );
