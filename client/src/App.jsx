@@ -11,6 +11,7 @@ import Footer from "./component/Footer/Footer";
 function App() {
   return (
     <>
+      <div>
       <Navbar/>
       <div>
       <Hero />
@@ -24,17 +25,18 @@ function App() {
       <div>
         <Work />
       </div>
-      <div className="my-56">
+      <div className="mt-56">
         <Portfolio />
       </div>
-      <div className="my-96">
+      <div className="my-10">
       <Testimonial />
       </div>
-      <div className="mt-96">
+      <div className="lg:mt-96">
         <Contact />
       </div>
       <div>
         <Footer />
+      </div>
       </div>
     </>
   );

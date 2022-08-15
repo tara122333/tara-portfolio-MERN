@@ -85,20 +85,19 @@
     flex-direction: column;
     height: 55rem;
     padding: 0;
-    gap: 5rem;
+    gap: 4rem;
   }
 
   .w-right {
     display: flex;
     align-items: flex-start;
     justify-content:start;
-    transform: scale(0.7);
+    transform: scale(0.5);
   }
   .w-mainCircle{
-    position: absolute;
-    left: 5rem;
+    position: static;
   }
   .w-backCircle{
-    left: 9rem!important;
+    left: 8rem!important;
   }
 }
