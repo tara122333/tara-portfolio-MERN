@@ -9,6 +9,7 @@ import linkedin from '../../img/linkedin.png';
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 import boy from "../../img/boy.png";
+import tara from "../../img/tara.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -28,7 +29,7 @@ const Hero = () => {
                     <span className='text-6xl text-tara-orange md:text-6xl lg:text-7xl'>Tara Chand Kumawat</span>
                 </div>
                 <div className='my-5'>
-                    <span className='text-gray-600'>Frontend Developer with high level of experience in web designing and development, producting the Quality work</span>
+                    <span className='text-gray-600'>MERN Stack Developer with high level of experience in web designing and development, producting the Quality work</span>
                 </div>
                 <div className='my-8'>
                     <button className='bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow hover:bg-gradient-to-r
@@ -62,8 +63,10 @@ const Hero = () => {
                 md:scale-y-125 lg:top-12 lg:left-14'>
                     <img src={Vector2} alt="vector" className='w-full h-full'/>
                 </div>
-                <div className='absolute z-30 w-96 -top-1 -left-5 md:scale-125 md:left-40 md:-top-3 lg:top-10 lg:left-48 lg:scale-110'>
-                    <img src={boy} alt="vector" className='w-full h-full'/>
+                <div className='absolute z-30 w-full top-32 -left-8 md:scale-75 md:-left-16 md:-top-24 lg:-top-20 lg:-left-4 lg:scale-90 -rotate-6'>
+                    <div className='h-full w-full border-2 md:border-4 lg:border-8 border-x-tara-black rounded-full overflow-hidden'>
+                        <img src={tara} alt="vector" className='w-full h-full'/>
+                    </div>
                 </div>
 
                 {/* <FloatinDiv img={crown} text1="Web" text2="Developer" />
