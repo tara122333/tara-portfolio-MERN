@@ -39,27 +39,26 @@ const Work = () => {
                 whileInView={{ rotate: 0}}
                 viewport={{ margin: "10px" }}
                 transition={{ duration: 3.5, type: "spring" }}
-                className="w-mainCircle relative left-36 h-72
-                 w-72 rounded-full top-8 z-20 shadow-2xl bg-white"
+                className="w-mainCircle relative left-14 lg:left-36 w-72 rounded-full top-8 z-20 shadow-2xl bg-white h-72"
                 >
-                <div className="w-secCircle w-24 h-24 flex rounded-full border-4 border-tara-blueCard justify-center items-center bg-white absolute -top-12 left-20 shadow-2xl">
+                <div className="w-secCircle w-24 h-24 flex rounded-full border-4 border-tara-blueCard justify-center items-center bg-white absolute -top-12 left-20 lg:left-20 shadow-2xl">
                     <img src={Upwork} alt="" className='scale-50'/>
                 </div>
-                <div className="w-secCircle w-24 h-24 flex rounded-full border-4 border-tara-blueCard justify-center items-center bg-white absolute -left-12 top-20 shadow-2xl">
+                <div className="w-secCircle w-24 h-24 flex rounded-full border-4 border-tara-blueCard justify-center items-center bg-white absolute -left-12 lg:-left-12 top-20 shadow-2xl">
                     <img src={Fiverr} alt="" className='scale-50'/>
                 </div>
-                <div className="w-secCircle w-24 h-24 flex rounded-full border-4 border-tara-blueCard justify-center items-center bg-white absolute left-24 top-20 shadow-2xl">
+                <div className="w-secCircle w-24 h-24 flex rounded-full border-4 border-tara-blueCard justify-center items-center bg-white absolute left-20 lg:left-24 top-20 shadow-2xl">
                     <img src={Amazon} alt="" className='scale-50'/>
                 </div>
-                <div className="w-secCircle w-24 h-24 flex rounded-full border-4 border-tara-blueCard justify-center items-center bg-white absolute left-60 top-20 shadow-2xl">
+                <div className="w-secCircle w-24 h-24 flex rounded-full border-4 border-tara-blueCard justify-center items-center bg-white absolute left-56 lg:left-60 top-20 shadow-2xl">
                     <img src={Shopify} alt="" className='scale-50'/>
                 </div>
-                <div className="w-secCircle w-24 h-24 flex rounded-full border-4 border-tara-blueCard justify-center items-center bg-white absolute left-24 top-52 shadow-2xl">
+                <div className="w-secCircle w-24 h-24 flex rounded-full border-4 border-tara-blueCard justify-center items-center bg-white absolute left-20 lg:left-24 top-52 shadow-2xl">
                     <img src={Facebook} alt="" className='scale-50'/>
                 </div>
                 </motion.div>
-                <div className="w-backCircle absolute w-52 h-52 rounded-full z-10 blueCircle bg-blue-600 left-72 top-0"></div>
-                 <div className="w-backCircle absolute w-52 h-52 rounded-full z-10 yellowCircle bg-tara-yellow left-72 top-32"></div>
+                <div className="w-backCircle absolute w-52 h-52 rounded-full z-10 blueCircle bg-blue-600 left-44 lg:left-72 top-0"></div>
+                 <div className="w-backCircle absolute w-52 h-52 rounded-full z-10 yellowCircle bg-tara-yellow left-44 lg:left-72 top-32"></div>
             </div>
         </div>
     </>
