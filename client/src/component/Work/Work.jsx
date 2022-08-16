@@ -8,7 +8,7 @@ import Amazon from "../../img/amazon.png";
 import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 
-import "./Works.css";
+// import "./Works.css";
 
 const Work = () => {
 
@@ -21,10 +21,12 @@ const Work = () => {
                     <span className='text-6xl text-tara-orange md:text-6xl lg:text-7xl'>Brands & Clients</span>
                 </div>
                 <div className='my-5'>
-                    <span className='text-gray-600'>Lorem ispum is simpley dummy text of printing of printing Lorem
-ispum is simpley dummy text of printingLorem ispum is simpley dummy text
-y dummy text of printingLorem
-ispum is simpley dummy text of printing</span>
+                    <span className='text-gray-600'>
+                        Lorem ispum is simpley dummy text of printing of printing Lorem
+                        ispum is simpley dummy text of printingLorem ispum is simpley dummy text
+                        y dummy text of printingLorem
+                        ispum is simpley dummy text of printing
+                    </span>
                 </div>
                 <div className='my-8'>
                     <button className='bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow hover:bg-gradient-to-r
@@ -37,26 +39,27 @@ ispum is simpley dummy text of printing</span>
                 whileInView={{ rotate: 0}}
                 viewport={{ margin: "10px" }}
                 transition={{ duration: 3.5, type: "spring" }}
-                className="w-mainCircle shadow-2xl "
+                className="w-mainCircle relative left-36 h-72
+                 w-72 rounded-full top-8 z-20 shadow-2xl bg-white"
                 >
-                <div className="w-secCircle shadow-2xl">
-                    <img src={Upwork} alt="" />
+                <div className="w-secCircle w-24 h-24 flex rounded-full border-4 border-tara-blueCard justify-center items-center bg-white absolute -top-12 left-20 shadow-2xl">
+                    <img src={Upwork} alt="" className='scale-50'/>
                 </div>
-                <div className="w-secCircle shadow-2xl">
-                    <img src={Fiverr} alt="" />
+                <div className="w-secCircle w-24 h-24 flex rounded-full border-4 border-tara-blueCard justify-center items-center bg-white absolute -left-12 top-20 shadow-2xl">
+                    <img src={Fiverr} alt="" className='scale-50'/>
                 </div>
-                <div className="w-secCircle shadow-2xl">
-                    <img src={Amazon} alt="" />
+                <div className="w-secCircle w-24 h-24 flex rounded-full border-4 border-tara-blueCard justify-center items-center bg-white absolute left-24 top-20 shadow-2xl">
+                    <img src={Amazon} alt="" className='scale-50'/>
                 </div>
-                <div className="w-secCircle shadow-2xl">
-                    <img src={Shopify} alt="" />
+                <div className="w-secCircle w-24 h-24 flex rounded-full border-4 border-tara-blueCard justify-center items-center bg-white absolute left-60 top-20 shadow-2xl">
+                    <img src={Shopify} alt="" className='scale-50'/>
                 </div>
-                <div className="w-secCircle shadow-2xl">
-                    <img src={Facebook} alt="" />
+                <div className="w-secCircle w-24 h-24 flex rounded-full border-4 border-tara-blueCard justify-center items-center bg-white absolute left-24 top-52 shadow-2xl">
+                    <img src={Facebook} alt="" className='scale-50'/>
                 </div>
                 </motion.div>
-                <div className="w-backCircle blueCircle"></div>
-                 <div className="w-backCircle yellowCircle"></div>
+                <div className="w-backCircle absolute w-52 h-52 rounded-full z-10 blueCircle bg-blue-600 left-72 top-0"></div>
+                 <div className="w-backCircle absolute w-52 h-52 rounded-full z-10 yellowCircle bg-tara-yellow left-72 top-32"></div>
             </div>
         </div>
     </>
