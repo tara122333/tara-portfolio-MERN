@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/tara-portfolio-MERN/static/css/main.4124ac0b.css",
+    "main.js": "/tara-portfolio-MERN/static/js/main.d970a84a.js",
+    "static/media/tara.png": "/tara-portfolio-MERN/static/media/tara.20983bad24b62377c7b9.png",
+    "static/media/ecommerce.png": "/tara-portfolio-MERN/static/media/ecommerce.522da76635d52117102b.png",
+    "static/media/sidebar.png": "/tara-portfolio-MERN/static/media/sidebar.b2225070b8adae68d063.png",
+    "static/media/musicapp.png": "/tara-portfolio-MERN/static/media/musicapp.f1c301f91904ef5f9249.png",
+    "static/media/glassesimoji.png": "/tara-portfolio-MERN/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/resume.pdf": "/tara-portfolio-MERN/static/media/resume.abb2f334433c47513565.pdf",
+    "static/media/thumbup.png": "/tara-portfolio-MERN/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/tara-portfolio-MERN/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/tara-portfolio-MERN/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/tara-portfolio-MERN/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/tara-portfolio-MERN/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/tara-portfolio-MERN/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/tara-portfolio-MERN/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "static/media/slick.svg": "/tara-portfolio-MERN/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/tara-portfolio-MERN/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/tara-portfolio-MERN/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/tara-portfolio-MERN/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/tara-portfolio-MERN/index.html",
+    "main.4124ac0b.css.map": "/tara-portfolio-MERN/static/css/main.4124ac0b.css.map",
+    "main.d970a84a.js.map": "/tara-portfolio-MERN/static/js/main.d970a84a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4124ac0b.css",
+    "static/js/main.d970a84a.js"
+  ]
+}
