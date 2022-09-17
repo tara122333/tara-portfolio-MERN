@@ -13,12 +13,13 @@ function App() {
     <>
       <div>
       <Navbar/>
-      {/* <div>
+      <div>
       <Hero />
       </div>
       <div className="mb-96">
       <Service />
       </div>
+      {/* 
       <div className="mt-96 md:mt-0">
         <Experience/>
       </div>

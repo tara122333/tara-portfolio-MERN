@@ -44,8 +44,8 @@ const Service = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Front-end"}
+            detail={"Html, Css, React, BootStrap, TailwindCss"}
             className="relative"
           />
         </motion.div>
@@ -58,8 +58,8 @@ const Service = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Back-end"}
+            detail={"Nodejs, Express, MongoDB, Docker, AWS"}
             className="relative"
           />
         </motion.div>
@@ -72,9 +72,9 @@ const Service = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Programming"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "C, C++, Java, Python, JavaScript"
             }
             color="rgba(252, 166, 31, 0.45)"
             className="relative"
@@ -82,47 +82,46 @@ const Service = () => {
         </motion.div>
             </div>
 
-
             <div className='flex md:hidden relative w-full h-full flex-wrap mb-96'>
             <motion.div
           initial={{ left: "0rem" }}
-          whileInView={{ left: "10rem" }}
+          whileInView={{ left: "6rem" }}
           transition={transition}
           className="relative"
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Front-end"}
+            detail={"Html, Css, React, BootStrap, TailwindCss"}
             className="relative"
           />
         </motion.div>
         {/* second card */}
         <motion.div
-          initial={{ left: "10rem", top: "20rem" }}
+          initial={{ left: "6rem", top: "20rem" }}
           whileInView={{ left: "0rem" }}
           transition={transition}
           className="relative"
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Back-end"}
+            detail={"Nodejs, Express, MongoDB, Docker, AWS"}
             className="relative"
           />
         </motion.div>
         {/* 3rd */}
         <motion.div
           initial={{ top: "40rem", left: "0rem" }}
-          whileInView={{ left: "10rem" }}
+          whileInView={{ left: "6rem" }}
           transition={transition}
           className="relative"
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Programming"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "C, C++, Java, Python, JavaScript"
             }
             color="rgba(252, 166, 31, 0.45)"
             className="relative"
