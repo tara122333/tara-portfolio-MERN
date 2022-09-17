@@ -1,10 +1,11 @@
 import { Menu, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
 import {HiMenu} from 'react-icons/hi'
+import { Link } from "react-scroll";
 
 export default function Example() {
   return (
-    <div className="fixed right-32 top-2 w-56 text-right">
+    <div className="absolute right-0 top-2 w-56 text-right">
       <Menu as="div" className="relative inline-block text-left">
         <div>
           <Menu.Button className="inline-flex w-full justify-center rounded-md bg-gradient-to-r border-tara-orange from-tara-yellow to-tara-orange shadow-tara-yellow px-4 py-2 text-sm font-medium text-white outline-none">
@@ -24,11 +25,26 @@ export default function Example() {
             <div className="px-1 py-1">
             <Menu.Item>
                 {({ active }) => (
+                    <a href='/course'>
+                    <button
+                    className="text-tara-black group flex w-full items-center rounded-md px-2 py-1 text-lg font-semibold"
+                    >
+                    <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
+                            Home
+                    </Link>
+                    </button>
+                </a>
+                )}
+            </Menu.Item>
+            <Menu.Item>
+                {({ active }) => (
                   <a href='/course'>
                         <button
                         className="text-tara-black group flex w-full items-center rounded-md px-2 py-1 text-lg font-semibold"
                         >
-                        Home
+                        <Link activeClass="active" to="services" spy={true} smooth={true}>
+                                Services
+                        </Link>
                         </button>
                     </a>
                 )}
@@ -39,7 +55,9 @@ export default function Example() {
                         <button
                         className="text-tara-black group flex w-full items-center rounded-md px-2 py-1 text-lg font-semibold"
                         >
-                        Services
+                        <Link activeClass="active" to="works" spy={true} smooth={true}>
+                            Experience
+                            </Link>
                         </button>
                     </a>
                 )}
@@ -50,7 +68,9 @@ export default function Example() {
                         <button
                         className="text-tara-black group flex w-full items-center rounded-md px-2 py-1 text-lg font-semibold"
                         >
-                        Experience
+                        <Link activeClass="active" to="portfolio" spy={true} smooth={true}>
+                            Portfolio
+                            </Link>
                         </button>
                     </a>
                 )}
@@ -61,18 +81,9 @@ export default function Example() {
                         <button
                         className="text-tara-black group flex w-full items-center rounded-md px-2 py-1 text-lg font-semibold"
                         >
-                        Portfolio
-                        </button>
-                    </a>
-                )}
-            </Menu.Item>
-            <Menu.Item>
-                {({ active }) => (
-                  <a href='/course'>
-                        <button
-                        className="text-tara-black group flex w-full items-center rounded-md px-2 py-1 text-lg font-semibold"
-                        >
-                        Testimonal
+                        <Link activeClass="active" to="testimonial" spy={true} smooth={true}>
+                            Testimonal
+                        </Link>
                         </button>
                     </a>
                 )}
