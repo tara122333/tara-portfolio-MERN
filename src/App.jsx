@@ -13,7 +13,7 @@ function App() {
     <>
       <div>
       <Navbar/>
-      <div>
+      {/* <div>
       <Hero />
       </div>
       <div className="mb-96">
@@ -36,7 +36,7 @@ function App() {
       </div>
       <div>
         <Footer />
-      </div>
+      </div> */}
       </div>
     </>
   );
