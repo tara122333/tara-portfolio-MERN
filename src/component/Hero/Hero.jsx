@@ -9,7 +9,7 @@ import tara from "../../img/tara.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
-import Typewriter from 'typewriter-effect/dist/core';
+import Typewriter from "typewriter-effect";
 
 import FloatinDiv from '../FloatingDiv/FloatingDiv';
 
@@ -17,14 +17,15 @@ const Hero = () => {
 
     const transition = { duration: 2, type: "spring" };
 
-    const app = document.getElementById('title');
+    // const app = document.getElementById('title');
 
-    var typewriter = new Typewriter(app, {
-    loop: true,
-    delay: 75,
-    });
+    // var typewriter = new Typewriter(app, {
+    // loop: true,
+    // delay: 75,
+    // autoStart: true,
+    // });
 
-    typewriter.pauseFor(10).typeString('Tara Chand Kumawat <strong> </br>Web Developer</strong>').pauseFor(300).deleteChars(13).typeString('<strong><span style="color: #27ae60; margin-top:15px;"></br> MERN Stack Developer</span></strong>').pauseFor(1000).start();
+    // typewriter.typeString('Tara Chand Kumawat <strong> </br>Web Developer</strong>').pauseFor(300).deleteChars(13).typeString('<strong><span style="color: #27ae60; margin-top:15px;"></br> MERN Stack Developer</span></strong>').pauseFor(1000).start();
 
   return (
     <>
@@ -32,7 +33,21 @@ const Hero = () => {
             <div className='flex flex-col h-full relative w-full lg:w-1/2 mb-36 py-5'>
                 <div className='flex flex-col gap-3 py-5'>
                     <span className='text-4xl md:text-5xl lg:text-6xl'>Hy! I Am</span>
-                    <span className='text-3xl text-tara-orange md:text-5xl lg:text-6xl' id='title'></span>
+                    <span className='App text-3xl text-tara-orange md:text-5xl lg:text-6xl'>
+                        <Typewriter
+                        loop={true}
+                        onInit={(typewriter)=> {
+                    
+                            typewriter
+                            .typeString('Tara Chand Kumawat <strong> </br>Web Developer</strong>')
+                            .pauseFor(30)
+                            .deleteChars(13)
+                            .typeString('<strong><span style="color: #27ae60; margin-top:15px;"></br> MERN Stack Developer</span></strong>')
+                            .pauseFor(100)
+                            .start();
+                        }}
+                        />
+                    </span>
                 </div>
                 <div className='my-2'>
                 <span className='text-gray-600'>MERN Stack Developer with Good level of experience in web designing and development, producting the Quality work</span>

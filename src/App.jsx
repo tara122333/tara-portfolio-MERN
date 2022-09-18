@@ -8,6 +8,8 @@ import Testimonial from "./component/Testimonials/Testimonial";
 import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer/Footer";
 import MajorProjects from "./component/Projects/MajorProjects";
+import TotalProjects from "./component/Projects/TotalProjects";
+
 
 
 function App() {
@@ -22,14 +24,14 @@ function App() {
       <Service />
       </div>
     
-      <div className="mt-96 lg:mt-0">
+      <div className="my-96 lg:mt-0">
         <Experience/>
       </div>
       {/* <div>
         <Work />
       </div> */}
-      <div className="">
-        <MajorProjects />
+      <div>
+        <TotalProjects />
       </div>
        {/*
       <div className="my-10">
