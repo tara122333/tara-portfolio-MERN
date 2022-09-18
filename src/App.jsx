@@ -7,6 +7,8 @@ import  Portfolio  from "./component/Projects/MiniProjects";
 import Testimonial from "./component/Testimonials/Testimonial";
 import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer/Footer";
+import MajorProjects from "./component/Projects/MajorProjects";
+
 
 function App() {
   return (
@@ -27,7 +29,7 @@ function App() {
         <Work />
       </div> */}
       <div className="">
-        <Portfolio />
+        <MajorProjects />
       </div>
        {/*
       <div className="my-10">
