@@ -12,25 +12,19 @@ import crown from "../../img/crown.png";
 import Typewriter from 'typewriter-effect/dist/core';
 
 import FloatinDiv from '../FloatingDiv/FloatingDiv';
+
 const Hero = () => {
 
     const transition = { duration: 2, type: "spring" };
 
-    var app = document.getElementById('title');
+    const app = document.getElementById('title');
 
     var typewriter = new Typewriter(app, {
     loop: true,
     delay: 75,
     });
 
-    typewriter
-  .pauseFor(100)
-  .typeString('Tara Chand Kumawat <strong> </br>Web Developer</strong>')
-  .pauseFor(300)
-  .deleteChars(13)
-  .typeString('<strong><span style="color: #27ae60; margin-top:15px;"></br> MERN Stack Developer</span></strong>')
-  .pauseFor(1000)
-  .start();
+    typewriter.pauseFor(10).typeString('Tara Chand Kumawat <strong> </br>Web Developer</strong>').pauseFor(300).deleteChars(13).typeString('<strong><span style="color: #27ae60; margin-top:15px;"></br> MERN Stack Developer</span></strong>').pauseFor(1000).start();
 
   return (
     <>
@@ -38,10 +32,10 @@ const Hero = () => {
             <div className='flex flex-col h-full relative w-full lg:w-1/2 mb-36 py-5'>
                 <div className='flex flex-col gap-3 py-5'>
                     <span className='text-4xl md:text-5xl lg:text-6xl'>Hy! I Am</span>
-                    <span className='text-3xl text-tara-orange md:text-5xl lg:text-6xl' id='title'>Tara Chand Kumawat</span>
+                    <span className='text-3xl text-tara-orange md:text-5xl lg:text-6xl' id='title'></span>
                 </div>
                 <div className='my-2'>
-                <span className='text-gray-600'>MERN Stack Developer with high level of experience in web designing and development, producting the Quality work</span>
+                <span className='text-gray-600'>MERN Stack Developer with Good level of experience in web designing and development, producting the Quality work</span>
                 </div>
                 <div className='my-8 flex gap-2'>
                     {/* <button className='bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow hover:bg-gradient-to-r
@@ -60,7 +54,7 @@ const Hero = () => {
                     </a>
                     <a href='https://www.instagram.com/tarachand1904/' target=' _blank'>
                     <div className='w-14 h-14 lg:w-16 lg:h-16'>
-                        <img src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" alt="github"  className='w-full h-full'/>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/640px-Instagram_icon.png" alt="github"  className='w-full h-full'/>
                     </div>
                     </a>
                     <a href='https://www.linkedin.com/in/tara-chand-k-5544a2216' target=' _blank'>
