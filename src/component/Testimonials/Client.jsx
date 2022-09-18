@@ -3,7 +3,7 @@ import React from 'react'
 
 const Client = (props) => {
   return (
-    <div className='flip-card'>
+    <div className='flip-card px-2'>
       <div className='flip-card-inner'>
         <div className='flex flex-col justify-center items-center border-2 border-tara-orange px-3 py-12 cursor-pointer gap-3 rounded-lg flip-card-front w-full'>
 

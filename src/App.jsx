@@ -15,11 +15,14 @@ import TotalProjects from "./component/Projects/TotalProjects";
 function App() {
   return (
     <>
-      <div>
       <Navbar/>
+
+
       <div>
       <Hero />
       </div>
+
+
       <div className="mb-96 lg:mb-48">
       <Service />
       </div>
@@ -30,9 +33,12 @@ function App() {
       {/* <div>
         <Work />
       </div> */}
+
+
       <div>
         <TotalProjects />
       </div>
+       
        
       <div className="my-10">
       <Testimonial />
@@ -44,7 +50,7 @@ function App() {
       <div>
         <Footer />
       </div> */}
-      </div>
+      
     </>
   );
 }

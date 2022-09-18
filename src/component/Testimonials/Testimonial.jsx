@@ -6,6 +6,9 @@ import profilePic3 from "../../img/profile3.jpg";
 import Client from "./Client";
 
 
+import Slider from 'react-slick';
+
+
 
 const Testimonial = () => {
 
@@ -49,6 +52,44 @@ const Testimonial = () => {
     },
   ];
 
+
+  const settings = {
+    arrows: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            nextArrow:false,
+            prevArrow: false,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            nextArrow: false,
+            prevArrow: false,
+          },
+        },
+      ],
+};
+
   return (
     <>
       <div className="flex justify-center items-center flex-col gap-5 relative" id="testimonial">
@@ -59,13 +100,15 @@ const Testimonial = () => {
                 <span className='text-3xl md:text-4xl lg:text-5xl'>from me...</span>
           </div>
         </div>
-          <div className="w-full flex flex-wrap gap-6 px-3 justify-center items-center">
-            {
-              clients.map((items)=>(
-                <Client {...items}/>
-              ))
-            }
-        </div>
+      </div>
+      <div className="px-5 mx-auto container w-full py-5">
+        <Slider {...settings}>
+              {
+                clients.map((items)=>(
+                  <Client {...items}/>
+                ))
+              }
+            </Slider>
       </div>
     </>
   );
