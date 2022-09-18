@@ -3,8 +3,9 @@ import React from "react";
 import profilePic1 from "../../img/profile1.jpg";
 import profilePic2 from "../../img/profile2.jpg";
 import profilePic3 from "../../img/profile3.jpg";
+import Client from "./Client";
 
-import Poster from "./Poster";
+
 
 const Testimonial = () => {
 
@@ -18,19 +19,33 @@ const Testimonial = () => {
 
   const clients = [
     {
-      img: profilePic1,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      img : "https://media-exp1.licdn.com/dms/image/C4D03AQFLhXZMotSC3A/profile-displayphoto-shrink_800_800/0/1656750765178?e=1665014400&v=beta&t=wu_Pi1j4emrJjUHpBenn9r7vTJq4eygZPFnqa9JoPyg",
+      name : "Tara Chand Kumawat",
+      title : "Seeking to get good learning guidance and career growth opportunities and improve my ability to thrive in a challenging environment where efficiency and accuracy matters.", time : "1",
+      company : "Google",
+      link : "https://www.linkedin.com/in/tara-chand-k-5544a2216"
     },
     {
-      img: profilePic2,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      img : "https://media-exp1.licdn.com/dms/image/C4D03AQFLhXZMotSC3A/profile-displayphoto-shrink_800_800/0/1656750765178?e=1665014400&v=beta&t=wu_Pi1j4emrJjUHpBenn9r7vTJq4eygZPFnqa9JoPyg",
+      name : "Tara Chand Kumawat",
+      title : "Seeking to get good learning guidance and career growth opportunities and improve my ability to thrive in a challenging environment where efficiency and accuracy matters.", time : "1",
+      company : "Google",
+      link : "https://www.linkedin.com/in/tara-chand-k-5544a2216"
     },
     {
-      img: profilePic3,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      img : "https://media-exp1.licdn.com/dms/image/C4D03AQFLhXZMotSC3A/profile-displayphoto-shrink_800_800/0/1656750765178?e=1665014400&v=beta&t=wu_Pi1j4emrJjUHpBenn9r7vTJq4eygZPFnqa9JoPyg",
+      name : "Tara Chand Kumawat",
+      title : "Seeking to get good learning guidance and career growth opportunities and improve my ability to thrive in a challenging environment where efficiency and accuracy matters.", time : "1",
+      company : "Google",
+      link : "https://www.linkedin.com/in/tara-chand-k-5544a2216"
+      
+    },
+    {
+      img : "https://media-exp1.licdn.com/dms/image/C4D03AQFLhXZMotSC3A/profile-displayphoto-shrink_800_800/0/1656750765178?e=1665014400&v=beta&t=wu_Pi1j4emrJjUHpBenn9r7vTJq4eygZPFnqa9JoPyg",
+      name : "Tara Chand Kumawat",
+      title : "Seeking to get good learning guidance and career growth opportunities and improve my ability to thrive in a challenging environment where efficiency and accuracy matters.", time : "1",
+      company : "Google",
+      link : "https://www.linkedin.com/in/tara-chand-k-5544a2216"
     },
   ];
 
@@ -38,22 +53,18 @@ const Testimonial = () => {
     <>
       <div className="flex justify-center items-center flex-col gap-5 relative" id="testimonial">
         <div className="items-start w-full">
-          <div className='flex flex-col lg:flex-row justify-center items-center gap-6 py-12 w-full h-full'>
-                <span className='text-4xl md:text-5xl lg:text-6xl'>Clients always get</span>
-                <span className='text-6xl text-tara-orange md:text-6xl lg:text-7xl'>Exceptional Work </span>
-                <span className='text-4xl md:text-5xl lg:text-6xl'>from me...</span>
+          <div className='flex flex-col lg:flex-row justify-center items-center gap-6 py-12 w-full h-full px-5'>
+                <span className='text-3xl md:text-4xl lg:text-5xl'>Clients always get</span>
+                <span className='text-4xl text-tara-orange md:text-4xl lg:text-6xl font-bold'>Exceptional Work </span>
+                <span className='text-3xl md:text-4xl lg:text-5xl'>from me...</span>
           </div>
-          <div className="relative w-96 rounded-full bg-tara-purple blur-3xl -z-10 left-2/4 -top-5" style={{ background: "rgb(138 210 255)" }}></div>
-          <div className="relative w-96 rounded-full bg-sky-500 blur-3xl -z-10 top-96 -left-96" style={{ background: "rgb(238 210 255)" }}></div>
         </div>
-          <div className="w-full px-4 py-2">
-              <div className="flex flex-col lg:flex-row gap-4 lg:gap-8 w-full h-full">
-                  {
-                    clients.map((items)=>(
-                      <Poster img={items.img} title={items.review}/>
-                    ))
-                  }
-              </div>
+          <div className="w-full flex flex-wrap gap-6 px-3 justify-center items-center">
+            {
+              clients.map((items)=>(
+                <Client {...items}/>
+              ))
+            }
         </div>
       </div>
     </>

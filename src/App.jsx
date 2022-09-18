@@ -33,10 +33,11 @@ function App() {
       <div>
         <TotalProjects />
       </div>
-       {/*
+       
       <div className="my-10">
       <Testimonial />
       </div>
+      {/*
       <div className="lg:mt-96">
         <Contact />
       </div>
