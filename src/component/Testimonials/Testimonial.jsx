@@ -101,7 +101,7 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
-      <div className="px-5 mx-auto container w-full py-5">
+      <div className="px-5 mx-auto container w-full py-5 lg:py-24">
         <Slider {...settings}>
               {
                 clients.map((items)=>(

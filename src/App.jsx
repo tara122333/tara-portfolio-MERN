@@ -39,17 +39,16 @@ function App() {
         <TotalProjects />
       </div>
        
-       
-      <div className="my-10">
+      <div className="my-10 lg:py-56">
       <Testimonial />
       </div>
-      {/*
-      <div className="lg:mt-96">
+      
+      {/* <div className="lg:mt-10">
         <Contact />
-      </div>
+      </div> */}
       <div>
         <Footer />
-      </div> */}
+      </div>
       
     </>
   );
