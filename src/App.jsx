@@ -39,7 +39,7 @@ function App() {
         <TotalProjects />
       </div>
        
-      <div className="my-10 lg:py-56">
+      <div className="my-10 py-24 lg:py-56">
       <Testimonial />
       </div>
       

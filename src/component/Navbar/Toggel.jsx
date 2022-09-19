@@ -25,82 +25,60 @@ export default function Example() {
             <div className="px-1 py-1">
             <Menu.Item>
                 {({ active }) => (
-                    <a href='/course'>
                     <button
                     className="text-tara-black group flex w-full items-center rounded-md px-2 py-1 text-lg font-semibold"
                     >
-                    {/* <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
+                    <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
                             Home
-                    </Link> */}
-                    Home
+                    </Link>
+                    {/* Home */}
                     </button>
-                </a>
                 )}
             </Menu.Item>
             <Menu.Item>
                 {({ active }) => (
-                  <a href='/course'>
                         <button
                         className="text-tara-black group flex w-full items-center rounded-md px-2 py-1 text-lg font-semibold"
                         >
-                        {/* <Link activeClass="active" to="services" spy={true} smooth={true}>
+                        <Link activeClass="active" to="services" spy={true} smooth={true}>
                                 Services
-                        </Link> */}
-                        Services
+                        </Link>
+                        {/* Services */}
                         </button>
-                    </a>
                 )}
             </Menu.Item>
             <Menu.Item>
                 {({ active }) => (
-                  <a href='/course'>
                         <button
                         className="text-tara-black group flex w-full items-center rounded-md px-2 py-1 text-lg font-semibold"
                         >
-                        {/* <Link activeClass="active" to="works" spy={true} smooth={true}>
-                            Experience
-                            </Link> */}
-                            Experience
+                        <Link activeClass="active" to="projects" spy={true} smooth={true}>
+                            Projects
+                            </Link>
+                            {/* Experience */}
                         </button>
-                    </a>
                 )}
             </Menu.Item>
             <Menu.Item>
                 {({ active }) => (
-                  <a href='/course'>
                         <button
                         className="text-tara-black group flex w-full items-center rounded-md px-2 py-1 text-lg font-semibold"
                         >
-                        {/* <Link activeClass="active" to="portfolio" spy={true} smooth={true}>
-                            Portfolio
-                            </Link> */}
-                            Portfolio
-                        </button>
-                    </a>
-                )}
-            </Menu.Item>
-            <Menu.Item>
-                {({ active }) => (
-                  <a href='/course'>
-                        <button
-                        className="text-tara-black group flex w-full items-center rounded-md px-2 py-1 text-lg font-semibold"
-                        >
-                        {/* <Link activeClass="active" to="testimonial" spy={true} smooth={true}>
+                        <Link activeClass="active" to="testimonial" spy={true} smooth={true}>
                             Testimonal
-                        </Link> */}
-                        Testimonal
+                        </Link>
+                        {/* Testimonal */}
                         </button>
-                    </a>
                 )}
             </Menu.Item>
 
-            <Menu.Item>
+            {/* <Menu.Item>
                 {({ active }) => (
                   <a href="https://www.google.com" target=" _blank">
                   <button className='bg-gradient-to-r border-2 border-white from-tara-yellow to-tara-orange rounded-md px-4 py-1 mx-2 text-white shadow-2xl shadow-tara-yellow'>Contact</button>
               </a>
                 )}
-            </Menu.Item>
+            </Menu.Item> */}
             </div>
           </Menu.Items>
         </Transition>

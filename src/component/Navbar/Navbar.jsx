@@ -25,26 +25,26 @@ const NavbarLG = () =>{
                             </Link>
                             </li>
                             <li className='text-xl font-medium hover:text-tara-orange'>
-                            <Link activeClass="active" to="works" spy={true} smooth={true}>
-                            Experience
+                            <Link activeClass="active" to="projects" spy={true} smooth={true}>
+                            Projects
                             </Link></li>
-                            <li className='text-xl font-medium hover:text-tara-orange'>
+                            {/* <li className='text-xl font-medium hover:text-tara-orange'>
                             <Link activeClass="active" to="portfolio" spy={true} smooth={true}>
-                            Portfolio
-                            </Link></li>
+                            Minor Projects
+                            </Link></li> */}
                             <li className='text-xl font-medium hover:text-tara-orange'>
                             <Link activeClass="active" to="testimonial" spy={true} smooth={true}>
                             Testimonal
                             </Link></li>
                         </ul>
                     </div>
-                    
+{/*                     
                     <Link to="contact" spy={true} smooth={true}>
                         <button className='bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow hover:bg-gradient-to-r
                         hover:from-white hover:to-white hover:text-tara-yellow hover:shadow-none'>
                             Contact
                         </button>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </>
@@ -70,7 +70,7 @@ const NavbarSM = () =>{
 function Navbar() {
   return (
     <>
-        <div className='hidden lg:flex container mx-auto px-16'>
+        <div className='hidden lg:flex w-full px-16'>
             <NavbarLG />
         </div>
         <div className='flex lg:hidden'>

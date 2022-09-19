@@ -17,21 +17,30 @@ const Service = () => {
   return (
     <>
     <div id='services'>
-        <div className='px-4 lg:container lg:mx-auto lg:px-16 my-10 flex flex-col lg:flex-row w-full mt-96 py-10 lg:mt-24' >
+        <div className='px-4 lg:container lg:mx-auto lg:px-16 my-10 flex flex-col lg:flex-row w-full lg:py-10 lg:mt-24' >
             <div className='flex flex-col h-full relative w-full lg:w-1/2 mb-20 lg:mb-0'>
                 <div className='flex flex-col gap-3 py-12'>
                     <span className='text-3xl md:text-4xl lg:text-5xl'>My Awesome</span>
                     <span className='text-5xl text-tara-orange md:text-6xl lg:text-7xl font-bold'>Services</span>
                 </div>
-                <div className='my-5 lg:w-2/3'>
+                <div className='my-5 lg:my-0 lg:w-2/3'>
                     <span className='text-gray-600 md:text-xl'>Full Stack Developer with Good level of experience in web designing and development, 
                     producting the Quality work. You can see my resume on the link given below</span>
                 </div>
-                <div className='my-8'>
-                    <a href={Resume} download>
-                        <button className='bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow hover:bg-gradient-to-r
-                    hover:from-white hover:to-white hover:text-tara-yellow hover:shadow-none'>Download Resume</button>
-                    </a>
+                <div className='my-8 lg:my-4 flex flex-col gap-5'>
+                  <div className='w-80 h-80'>
+                    <img src="https://c.tenor.com/tX_T48A14BwAAAAd/khaby-really.gif" alt="sticker" className='w-full h-full rounded-lg' />
+                  </div>
+                    <div className='flex flex-col gap-5 md:flex-row'>
+                      <a href={Resume} download>
+                          <button className='bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow hover:bg-gradient-to-r
+                      hover:from-white hover:to-white hover:text-tara-yellow hover:shadow-none'>Download Resume</button>
+                      </a>
+                      <a href="https://tara122333.github.io/Tara_Resume/" target=" _blank">
+                          <button className='bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow hover:bg-gradient-to-r
+                      hover:from-white hover:to-white hover:text-tara-yellow hover:shadow-none'>Live</button>
+                      </a>
+                    </div>
                 </div>
                 {/* <div className="relative my-96 w-96 h-72 rounded-full bg-tara-purple blur-3xl -z-10 top-96 -left-96" style={{ background: "#ABF1FF94" }}></div> */}
             </div>
