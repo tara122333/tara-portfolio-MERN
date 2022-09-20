@@ -19,7 +19,7 @@ const Service = () => {
     <div id='services'>
         <div className='px-4 lg:container lg:mx-auto lg:px-16 my-10 flex flex-col lg:flex-row w-full lg:py-10 lg:mt-24' >
             <div className='flex flex-col h-full relative w-full lg:w-1/2 mb-20 lg:mb-0'>
-                <div className='flex flex-col gap-3 py-12'>
+                <div className='flex flex-col gap-3 lg:py-12'>
                     <span className='text-3xl md:text-4xl lg:text-5xl'>My Awesome</span>
                     <span className='text-5xl text-tara-orange md:text-6xl lg:text-7xl font-bold'>Services</span>
                 </div>

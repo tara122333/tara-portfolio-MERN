@@ -27,7 +27,7 @@ function App() {
       <Service />
       </div>
     
-      <div className="my-96 lg:mt-0">
+      <div className="mt-96 lg:my-96 lg:mt-0 py-24 lg:py-0">
         <Experience/>
       </div>
       {/* <div>

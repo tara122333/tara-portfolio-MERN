@@ -20,7 +20,7 @@ const Projects = (props) => {
                 </h3>
                 <div className='flex gap-3 pt-6'>
                     <a href={props.live} target=" _blank">
-                        <button className='bg-gradient-to-r border border-tara-orange from-tara-yellow to-tara-orange rounded-lg px-2 py-1 text-white shadowlg lg:shadow-xl lg:px-4 shadow-tara-yellow hover:bg-gradient-to-r
+                        <button className='bg-gradient-to-r border border-tara-orange from-tara-yellow to-tara-orange rounded-lg px-2 py-1 text-white shadow-lg lg:shadow-xl lg:px-4 shadow-tara-yellow hover:bg-gradient-to-r
                         hover:from-white hover:to-white hover:text-tara-yellow hover:shadow-none'>
                             Live
                         </button>

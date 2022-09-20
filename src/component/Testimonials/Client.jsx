@@ -26,7 +26,7 @@ const Client = (props) => {
 
 
 
-        <div class="flip-card-back rounded-lg flex justify-center items-center flex-col gap-6 cursor-pointer">
+        <div class="flip-card-back rounded-lg flex justify-center items-center flex-col gap-6 cursor-pointer px-4 lg:px-6">
           <h1 className='text-white text-base'>
             {
                 props.title

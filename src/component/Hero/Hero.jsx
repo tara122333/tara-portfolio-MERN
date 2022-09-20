@@ -49,8 +49,8 @@ const Hero = () => {
                         />
                     </span>
                 </div>
-                <div className='my-2'>
-                <span className='text-gray-600'>MERN Stack Developer with Good level of experience in web designing and development, producting the Quality work</span>
+                <div className='my-2 lg:w-11/12'>
+                <span className='text-gray-600 md:text-xl'>MERN Stack Developer with Good level of experience in web designing and development, producting the Quality work</span>
                 </div>
                 <div className='my-8 flex gap-2'>
                     {/* <button className='bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow hover:bg-gradient-to-r
