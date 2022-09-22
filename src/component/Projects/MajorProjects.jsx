@@ -1,17 +1,17 @@
 import React from 'react'
 import Projects from './Projects'
-
+import resume from '../image/resume.png';
 
 const MajorProjects = () => {
 
     const proj = [
         {
-        title : "MERN Stack",
-        image : "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg",
-        description : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur libero quia, consequuntur natus placeat veniam ipsa saepe optio quo delectus in voluptate nisi blanditiis ipsam.",
-        live : "https://wwww.google.com",
-        source : "https://wwww.google.com",
-        tutorial : "https://wwww.google.com",
+        title : "Resume Website",
+        image : resume,
+        description : "This website build using HTML and CSS",
+        live : "https://tara122333.github.io/Tara_Resume/",
+        source : "https://github.com/tara122333/Tara_Resume",
+        tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
     },
         {
         title : "MERN Stack",
