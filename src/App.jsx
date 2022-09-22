@@ -9,6 +9,8 @@ import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer/Footer";
 import MajorProjects from "./component/Projects/MajorProjects";
 import TotalProjects from "./component/Projects/TotalProjects";
+import ConceptWithTara from "./component/YouTube/ConceptWithTara";
+
 
 
 
@@ -39,6 +41,10 @@ function App() {
         <TotalProjects />
       </div>
        
+      <div className="my-10 py-24 lg:py-56">
+      <ConceptWithTara />
+      </div>
+
       <div className="my-10 py-24 lg:py-56">
       <Testimonial />
       </div>
