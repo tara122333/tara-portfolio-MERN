@@ -22,33 +22,33 @@ const Testimonial = () => {
 
   const clients = [
     {
-      img : "https://media-exp1.licdn.com/dms/image/C4D03AQFLhXZMotSC3A/profile-displayphoto-shrink_800_800/0/1656750765178?e=1665014400&v=beta&t=wu_Pi1j4emrJjUHpBenn9r7vTJq4eygZPFnqa9JoPyg",
-      name : "Tara Chand Kumawat",
+      img : "https://media-exp1.licdn.com/dms/image/C4D03AQEGP1vPuIyDsA/profile-displayphoto-shrink_400_400/0/1659182274287?e=1669248000&v=beta&t=J82LU22N6-Dg72Vy1tPCRL5BEPmeVD-NQWdl8SqwXsE",
+      name : "Harshit Bhardwaj",
       title : "Seeking to get good learning guidance and career growth opportunities and improve my ability to thrive in a challenging environment where efficiency and accuracy matters.", time : "1",
-      company : "Google",
-      link : "https://www.linkedin.com/in/tara-chand-k-5544a2216"
+      company : "Hikup",
+      link : "https://www.linkedin.com/in/harshitfeed"
     },
     {
-      img : "https://media-exp1.licdn.com/dms/image/C4D03AQFLhXZMotSC3A/profile-displayphoto-shrink_800_800/0/1656750765178?e=1665014400&v=beta&t=wu_Pi1j4emrJjUHpBenn9r7vTJq4eygZPFnqa9JoPyg",
-      name : "Tara Chand Kumawat",
+      img : "https://media-exp1.licdn.com/dms/image/C4D03AQE4pb7sTP4VrA/profile-displayphoto-shrink_400_400/0/1659178585900?e=1669248000&v=beta&t=quxNmG2xR7A-N-6T-nbaGOTL9DXPGDqpCd3JPWF8rGg",
+      name : "Shubham Kumawat",
       title : "Seeking to get good learning guidance and career growth opportunities and improve my ability to thrive in a challenging environment where efficiency and accuracy matters.", time : "1",
-      company : "Google",
-      link : "https://www.linkedin.com/in/tara-chand-k-5544a2216"
+      company : "SkillsVertex",
+      link : "https://www.linkedin.com/in/shubham-kumawat-b30651190"
     },
     {
-      img : "https://media-exp1.licdn.com/dms/image/C4D03AQFLhXZMotSC3A/profile-displayphoto-shrink_800_800/0/1656750765178?e=1665014400&v=beta&t=wu_Pi1j4emrJjUHpBenn9r7vTJq4eygZPFnqa9JoPyg",
-      name : "Tara Chand Kumawat",
+      img : "https://media-exp1.licdn.com/dms/image/C4D03AQEgvwyvYNsdDw/profile-displayphoto-shrink_400_400/0/1607794469961?e=1669248000&v=beta&t=3d09dvdsYI3zAUeY7BkOZhak2jZLOtpX12OfKmUp3m0",
+      name : "Shubham Sharma",
       title : "Seeking to get good learning guidance and career growth opportunities and improve my ability to thrive in a challenging environment where efficiency and accuracy matters.", time : "1",
-      company : "Google",
-      link : "https://www.linkedin.com/in/tara-chand-k-5544a2216"
+      company : "ConceptWithTara",
+      link : "https://www.linkedin.com/in/ishubhamsharma00"
       
     },
     {
-      img : "https://media-exp1.licdn.com/dms/image/C4D03AQFLhXZMotSC3A/profile-displayphoto-shrink_800_800/0/1656750765178?e=1665014400&v=beta&t=wu_Pi1j4emrJjUHpBenn9r7vTJq4eygZPFnqa9JoPyg",
-      name : "Tara Chand Kumawat",
+      img : "https://media-exp1.licdn.com/dms/image/C5603AQFG01QeF1r9-w/profile-displayphoto-shrink_400_400/0/1630979302293?e=1669248000&v=beta&t=NQQSUt_bKjUwDwP-MIr2hPGN9Esl0k2s5wQ46URsQhA",
+      name : "Shyam Sundar Kumawat",
       title : "Seeking to get good learning guidance and career growth opportunities and improve my ability to thrive in a challenging environment where efficiency and accuracy matters.", time : "1",
-      company : "Google",
-      link : "https://www.linkedin.com/in/tara-chand-k-5544a2216"
+      company : "Samsung",
+      link : "https://www.linkedin.com/in/shyamkumawat"
     },
   ];
 
