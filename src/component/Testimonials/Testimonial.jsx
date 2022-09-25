@@ -1,8 +1,4 @@
 import React from "react";
-// import Slider from "react-slick";
-import profilePic1 from "../../img/profile1.jpg";
-import profilePic2 from "../../img/profile2.jpg";
-import profilePic3 from "../../img/profile3.jpg";
 import Client from "./Client";
 
 
@@ -38,7 +34,7 @@ const Testimonial = () => {
     {
       img : "https://media-exp1.licdn.com/dms/image/C4D03AQEgvwyvYNsdDw/profile-displayphoto-shrink_400_400/0/1607794469961?e=1669248000&v=beta&t=3d09dvdsYI3zAUeY7BkOZhak2jZLOtpX12OfKmUp3m0",
       name : "Shubham Sharma",
-      title : "Seeking to get good learning guidance and career growth opportunities and improve my ability to thrive in a challenging environment where efficiency and accuracy matters.", time : "1",
+      title : "Satisfactory work in very short span of time. Professional developer. Liked it. Recommended👍🏻", time : "1",
       company : "ConceptWithTara",
       link : "https://www.linkedin.com/in/ishubhamsharma00"
       
@@ -48,6 +44,13 @@ const Testimonial = () => {
       name : "Shyam Sundar Kumawat",
       title : "Seeking to get good learning guidance and career growth opportunities and improve my ability to thrive in a challenging environment where efficiency and accuracy matters.", time : "1",
       company : "Samsung",
+      link : "https://www.linkedin.com/in/shyamkumawat"
+    },
+    {
+      img : "https://media-exp1.licdn.com/dms/image/C5603AQEutBrqM9JcNA/profile-displayphoto-shrink_400_400/0/1634582037321?e=1669852800&v=beta&t=MIKf22Kj2FZHIZvx_SNM4FOFavQERSlwNRHEl6QR0qk",
+      name : "Saransh Parashar",
+      title : "The project met all my requirements completely and the developer was very helpful and polite in nature. Totally satisfied with my website and the project was completed in the time limit also. Great!!", time : "1",
+      company : "ConceptWithTara",
       link : "https://www.linkedin.com/in/shyamkumawat"
     },
   ];

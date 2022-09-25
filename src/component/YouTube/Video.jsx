@@ -1,12 +1,17 @@
 import React from 'react'
 
-const Video = () => {
+const Video = (props) => {
   return (
     <div>
-        <div>
-            <iframe width="420" height="345" src="https://www.youtube.com/embed/D9tGExcTk3I?autoplay=1">
-                
-            </iframe>
+        <div className='px-2 py-5 w-full'>
+          {/* <div className='w-full h-96 md:w-96' style={{height: "40rem"}}>
+              <iframe src={`https://www.youtube.com/embed/1vcMmUiSJws`} className='w-full h-full rounded-lg'>
+              </iframe>
+          </div> */}
+          <div className='w-full h-96 md:w-96' style={{height: "40rem"}}>
+              <iframe src={`https://www.youtube.com/embed/${props.id}`} className='w-full h-full rounded-lg'>
+              </iframe>
+          </div>
         </div>
     </div>
   )
