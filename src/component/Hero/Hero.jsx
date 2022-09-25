@@ -82,7 +82,7 @@ const Hero = () => {
                         <img src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png" alt="github"  className='w-full h-full'/>
                     </div>
                     </a>
-                    <a href="https://wa.me/+917229804925?text=Hii Tara" target=' _blank'>
+                    <a href="https://wa.me/+917229804925?text=Hii Tara. I'm hiring you because your skills are great !!." target=' _blank'>
                     <div className='w-14 h-14 lg:w-16 lg:h-16'>
                         <img src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png" alt="github"  className='w-full h-full'/>
                     </div>
