@@ -51,7 +51,7 @@ const Testimonial = () => {
       name : "Saransh Parashar",
       title : "The project met all my requirements completely and the developer was very helpful and polite in nature. Totally satisfied with my website and the project was completed in the time limit also. Great!!", time : "1",
       company : "ConceptWithTara",
-      link : "https://www.linkedin.com/in/shyamkumawat"
+      link : "https://www.linkedin.com/in/saransh-parashar-ba5b05223"
     },
   ];
 

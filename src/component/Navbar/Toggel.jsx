@@ -21,7 +21,7 @@ export default function Example() {
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-0 scale-95"
         >
-          <Menu.Items className="bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange px-4 py-1 text-white shadow-tara-yellow absolute right-0 mt-2 w-40 origin-top-right divide-y rounded-md shadow-lg z-50 ring-1 ring-black ring-opacity-5 focus:outline-none overflow-hidden">
+          <Menu.Items className="bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange px-4 py-1 text-white shadow-tara-yellow absolute right-0 mt-2 w-52 origin-top-right divide-y rounded-md shadow-lg z-50 ring-1 ring-black ring-opacity-5 focus:outline-none overflow-hidden">
             <div className="px-1 py-1">
             <Menu.Item>
                 {({ active }) => (
@@ -54,6 +54,18 @@ export default function Example() {
                         >
                         <Link activeClass="active" to="projects" spy={true} smooth={true}>
                             Projects
+                            </Link>
+                            {/* Experience */}
+                        </button>
+                )}
+            </Menu.Item>
+            <Menu.Item>
+                {({ active }) => (
+                        <button
+                        className="text-tara-black group flex w-full items-center rounded-md px-2 py-1 text-lg font-semibold"
+                        >
+                        <Link activeClass="active" to="youtube" spy={true} smooth={true}>
+                            ConceptWithTara
                             </Link>
                             {/* Experience */}
                         </button>

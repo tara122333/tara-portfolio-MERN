@@ -14,25 +14,25 @@ const NavbarLG = () =>{
                 <div className='flex gap-9 items-center'>
                     <div>
                         <ul className='flex gap-9'>
-                            <li className='text-xl font-medium hover:text-tara-orange'>
+                            <li className='text-xl font-medium hover:text-tara-orange cursor-pointer'>
                             <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
                                 Home
                             </Link>
                             </li>
-                            <li className='text-xl font-medium hover:text-tara-orange'>
+                            <li className='text-xl font-medium hover:text-tara-orange cursor-pointer'>
                             <Link activeClass="active" to="services" spy={true} smooth={true}>
                                 Services
                             </Link>
                             </li>
-                            <li className='text-xl font-medium hover:text-tara-orange'>
+                            <li className='text-xl font-medium hover:text-tara-orange cursor-pointer'>
                             <Link activeClass="active" to="projects" spy={true} smooth={true}>
                             Projects
                             </Link></li>
-                            {/* <li className='text-xl font-medium hover:text-tara-orange'>
-                            <Link activeClass="active" to="portfolio" spy={true} smooth={true}>
-                            Minor Projects
-                            </Link></li> */}
-                            <li className='text-xl font-medium hover:text-tara-orange'>
+                            <li className='text-xl font-medium hover:text-tara-orange cursor-pointer'>
+                            <Link activeClass="active" to="youtube" spy={true} smooth={true}>
+                            ConceptWithTara
+                            </Link></li>
+                            <li className='text-xl font-medium hover:text-tara-orange cursor-pointer'>
                             <Link activeClass="active" to="testimonial" spy={true} smooth={true}>
                             Testimonal
                             </Link></li>
