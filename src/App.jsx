@@ -10,6 +10,7 @@ import Footer from "./component/Footer/Footer";
 import MajorProjects from "./component/Projects/MajorProjects";
 import TotalProjects from "./component/Projects/TotalProjects";
 import ConceptWithTara from "./component/YouTube/ConceptWithTara";
+import Certificate from "./component/Certificate/Certificate";
 
 
 
@@ -39,6 +40,9 @@ function App() {
 
       <div>
         <TotalProjects />
+      </div>
+      <div>
+        <Certificate />
       </div>
        
       <div className="my-10 py-24 lg:py-56">

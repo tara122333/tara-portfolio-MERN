@@ -4,6 +4,7 @@ import resume from '../image/resume.png';
 import tarabank from '../image/tarabank.png';
 import digitalclock from '../image/digitalclock.png';
 import fbclone from '../image/fbclone.png';
+import simpleportfolio from '../image/simpleportfolio.png';
 
 const MajorProjects = () => {
 
@@ -42,6 +43,15 @@ const MajorProjects = () => {
         skills : [ "HTML", "CSS"],
         live : "https://tara122333.github.io/Facebook-Clone/index.html",
         source : "https://github.com/tara122333/Facebook-Clone",
+        tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+    },
+        {
+        title : "Static Portfolio",
+        image : simpleportfolio,
+        description : "This is My Static Portfolio website build using HTML, Bootstrap. It is template for portfolio",
+        skills : [ "HTML", "Bootstrap"],
+        live : "https://tara122333.github.io/portfolio-simple/",
+        source : "https://github.com/tara122333/portfolio-simple",
         tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
     },
     ];
