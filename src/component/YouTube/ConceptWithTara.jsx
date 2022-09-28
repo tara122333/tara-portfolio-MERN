@@ -3,6 +3,13 @@ import Video from './Video'
 
 const ConceptWithTara = () => {
   const yt = [ 
+    
+    {
+      id : "e50Y_83ZnBQ"
+    },
+    {
+      id : "ClK0S9lRBO8"
+    },
     {
       id : "1vcMmUiSJws"
     },
