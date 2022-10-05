@@ -5,6 +5,30 @@ const ConceptWithTara = () => {
   const yt = [ 
     
     {
+      id : "0NgtZGPPRjc"
+    },
+    {
+      id : "qNq6Zr_a0Tg"
+    },
+    {
+      id : "CHy15M2xLZU"
+    },
+    {
+      id : "0oXZexZKUKc"
+    },
+    {
+      id : "06wb8LmqsMQ"
+    },
+    {
+      id : "Vqh35KQbJLw"
+    },
+    {
+      id : "mRSW3WiQ3Iw"
+    },
+    {
+      id : "VthC2qDzkbU"
+    },
+    {
       id : "e50Y_83ZnBQ"
     },
     {
@@ -25,9 +49,6 @@ const ConceptWithTara = () => {
     {
       id : "tpxuIRsIso0"
     },
-    {
-      id : "0pxAfKqVlw4"
-    },
   ]
   return (
     <div id='youtube'>
@@ -41,6 +62,11 @@ const ConceptWithTara = () => {
                   <Video {...item} />
                 ))
               }
+            </div>
+            <div className='flex justify-center items-center lg:my-4'>
+              <a href="https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw" target=" _blank">
+                <button className='bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange rounded-full px-24 py-2 text-white shadow-2xl shadow-tara-yellow hover:bg-gradient-to-r hover:from-white hover:to-white hover:text-tara-yellow hover:shadow-none'>Show More</button>
+                </a>
             </div>
         </div>
     </div>

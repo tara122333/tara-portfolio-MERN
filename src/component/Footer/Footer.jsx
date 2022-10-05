@@ -21,6 +21,11 @@ const Footer = () => {
               <img src="https://openvisualfx.com/wp-content/uploads/2019/10/linkedin-icon-logo-png-transparent.png" alt="logo" className="w-full h-full text-white"/>
             </div>
           </a>
+          <a href="https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw" target=" _blank">
+            <div className="w-20 h-10 md:w-28 md:h-14 bg-white rounded-lg">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png" alt="logo" className="w-full h-full text-white"/>
+            </div>
+          </a>
         </div>
       </div>
     </div>
