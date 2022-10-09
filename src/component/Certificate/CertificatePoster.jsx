@@ -3,8 +3,8 @@ import React from 'react'
 const CertificatePoster = (props) => {
   return (
     <div>
-        <div className='flex flex-col gap-4'>
-            <div className='w-full rounded-t-lg h-64 md:h-72 lg:h-80'>
+        <div className='flex flex-col gap-4 w-full md:w-96'>
+            <div className='w-full rounded-t-lg h-64 md:h-72 lg:h-80 border-2 border-black'>
                 <img src={props.img} alt="certificate" className="w-full h-full rounded-t-lg" />
             </div>
             <div>
