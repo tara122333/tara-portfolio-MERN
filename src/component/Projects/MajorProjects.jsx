@@ -5,6 +5,8 @@ import tarabank from '../image/tarabank.png';
 import digitalclock from '../image/digitalclock.png';
 import fbclone from '../image/fbclone.png';
 import simpleportfolio from '../image/simpleportfolio.png';
+import zomatolandingpage from '../image/zomatolandingpage.png';
+import calculator from '../image/calculator.png';
 
 const MajorProjects = () => {
 
@@ -52,6 +54,24 @@ const MajorProjects = () => {
         skills : [ "HTML", "Bootstrap"],
         live : "https://tara122333.github.io/portfolio-simple/",
         source : "https://github.com/tara122333/portfolio-simple",
+        tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+    },
+        {
+        title : "Zomato Landing Page",
+        image : zomatolandingpage,
+        description : "This Zomato landing page website build using HTML, and Css.",
+        skills : [ "HTML", "CSS"],
+        live : "https://tara122333.github.io/Zomato-website/",
+        source : "https://github.com/tara122333/Zomato-website",
+        tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+    },
+        {
+        title : "Zomato Landing Page",
+        image : calculator,
+        description : "This Zomato landing page website build using HTML, and Css.",
+        skills : [ "HTML", "CSS"],
+        live : "https://tara122333.github.io/Calculator/",
+        source : "https://github.com/tara122333/Calculator",
         tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
     },
     ];
