@@ -7,6 +7,7 @@ import fbclone from '../image/fbclone.png';
 import simpleportfolio from '../image/simpleportfolio.png';
 import zomatolandingpage from '../image/zomatolandingpage.png';
 import calculator from '../image/calculator.png';
+import blooddonation from '../image/blooddonation.png';
 
 const MajorProjects = () => {
 
@@ -66,12 +67,21 @@ const MajorProjects = () => {
         tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
     },
         {
-        title : "Zomato Landing Page",
+        title : "Basic Calculator",
         image : calculator,
-        description : "This Zomato landing page website build using HTML, and Css.",
+        description : "This Calculator website build using HTML, and Css.",
         skills : [ "HTML", "CSS"],
         live : "https://tara122333.github.io/Calculator/",
         source : "https://github.com/tara122333/Calculator",
+        tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+    },
+        {
+        title : "Health House",
+        image : blooddonation,
+        description : "This is Blood Donation website build using HTML,Css, JavaScript, MongoDB, Express and Node",
+        skills : [ "HTML", "CSS","JavaScript", "MongoDB", "Node", "Express"],
+        live : "https://tarahouse.herokuapp.com/",
+        source : "https://github.com/tara122333/Blood-Donation-Responsive-Website",
         tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
     },
     ];
