@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tara-portfolio-MERN/static/css/main.078dec40.css",
-    "main.js": "/tara-portfolio-MERN/static/js/main.1d379780.js",
+    "main.js": "/tara-portfolio-MERN/static/js/main.4680cdcd.js",
     "static/media/tara.png": "/tara-portfolio-MERN/static/media/tara.20983bad24b62377c7b9.png",
     "static/media/blooddonation.png": "/tara-portfolio-MERN/static/media/blooddonation.dc5b769c41421a95b377.png",
     "static/media/zomatolandingpage.png": "/tara-portfolio-MERN/static/media/zomatolandingpage.03dd54643cde965497a3.png",
@@ -33,10 +33,10 @@
     "static/media/slick.woff": "/tara-portfolio-MERN/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tara-portfolio-MERN/index.html",
     "main.078dec40.css.map": "/tara-portfolio-MERN/static/css/main.078dec40.css.map",
-    "main.1d379780.js.map": "/tara-portfolio-MERN/static/js/main.1d379780.js.map"
+    "main.4680cdcd.js.map": "/tara-portfolio-MERN/static/js/main.4680cdcd.js.map"
   },
   "entrypoints": [
     "static/css/main.078dec40.css",
-    "static/js/main.1d379780.js"
+    "static/js/main.4680cdcd.js"
   ]
 }
