@@ -3,7 +3,7 @@ import React from 'react'
 const Projects = (props) => {
   return (
     <>
-        <div className='shadow-lg pb-8 rounded-lg w-80 md:w-96 container mx-auto lg:flex lg:flex-col lg:mx-0 lg:hover:shadow-2xl'>
+        <div className='shadow-lg pb-8 rounded-lg w-full md:w-96 container mx-auto lg:flex lg:flex-col lg:mx-0 lg:hover:shadow-2xl'>
             <div className='w-full rounded-t-lg h-40 md:h-44 lg:h-48'>
                 <img src={props.image} alt="project" className='w-full h-full rounded-t-lg' />
             </div>

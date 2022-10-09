@@ -88,7 +88,7 @@ const MajorProjects = () => {
 
   return (
     <>
-        <div className='flex flex-col gap-8 lg:flex-row lg:flex-wrap lg:justify-center px-2'>
+        <div className='flex flex-col gap-8 lg:flex-row lg:flex-wrap lg:justify-center'>
             {
                 proj.map((data)=>(
                     <Projects {...data}/>

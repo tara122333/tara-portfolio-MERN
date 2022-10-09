@@ -12,7 +12,7 @@ const TotalProjects = () => {
                   <span className='text-3xl md:text-4xl lg:text-5xl lg:hidden'>My Awesome</span>
                   <span className='text-5xl text-tara-orange md:text-6xl lg:text-7xl font-bold'>All  Projects</span>
                   </div>
-                  <div className='lg:py-24'>
+                  <div className='lg:py-24 px-2'>
                       <MajorProjects />
                   </div>
               </div>
