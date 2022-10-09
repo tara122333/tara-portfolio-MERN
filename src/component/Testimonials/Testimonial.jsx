@@ -20,14 +20,14 @@ const Testimonial = () => {
     {
       img : "https://media-exp1.licdn.com/dms/image/C4D03AQEGP1vPuIyDsA/profile-displayphoto-shrink_400_400/0/1659182274287?e=1669248000&v=beta&t=J82LU22N6-Dg72Vy1tPCRL5BEPmeVD-NQWdl8SqwXsE",
       name : "Harshit Bhardwaj",
-      title : "Seeking to get good learning guidance and career growth opportunities and improve my ability to thrive in a challenging environment where efficiency and accuracy matters.", time : "1",
+      title : "Thank you for putting in the extra effort during this busy time. The client truly appreciates it and your positive attitude has helped us all stay motivated.", time : "1",
       company : "Hikup",
       link : "https://www.linkedin.com/in/harshitfeed"
     },
     {
       img : "https://media-exp1.licdn.com/dms/image/C4D03AQE4pb7sTP4VrA/profile-displayphoto-shrink_400_400/0/1659178585900?e=1669248000&v=beta&t=quxNmG2xR7A-N-6T-nbaGOTL9DXPGDqpCd3JPWF8rGg",
       name : "Shubham Kumawat",
-      title : "Seeking to get good learning guidance and career growth opportunities and improve my ability to thrive in a challenging environment where efficiency and accuracy matters.", time : "1",
+      title : "Tara, your work looks great! It is clear that you care about your work, and I appreciate that you asked the client about their design preferences before creating their website.", time : "1",
       company : "SkillsVertex",
       link : "https://www.linkedin.com/in/shubham-kumawat-b30651190"
     },
@@ -42,7 +42,7 @@ const Testimonial = () => {
     {
       img : "https://media-exp1.licdn.com/dms/image/C5603AQFG01QeF1r9-w/profile-displayphoto-shrink_400_400/0/1630979302293?e=1669248000&v=beta&t=NQQSUt_bKjUwDwP-MIr2hPGN9Esl0k2s5wQ46URsQhA",
       name : "Shyam Sundar Kumawat",
-      title : "Seeking to get good learning guidance and career growth opportunities and improve my ability to thrive in a challenging environment where efficiency and accuracy matters.", time : "1",
+      title : "You have been doing a great job lately. Thank you for being so flexible with projects and working hard to support your team members.", time : "1",
       company : "Samsung",
       link : "https://www.linkedin.com/in/shyamkumawat"
     },
