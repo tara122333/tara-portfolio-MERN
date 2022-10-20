@@ -8,6 +8,7 @@ import simpleportfolio from '../image/simpleportfolio.png';
 import zomatolandingpage from '../image/zomatolandingpage.png';
 import calculator from '../image/calculator.png';
 import blooddonation from '../image/blooddonation.png';
+import taraMovie from '../image/taraMovie.png';
 
 const MajorProjects = () => {
 
@@ -20,6 +21,8 @@ const MajorProjects = () => {
         skills : [ "HTML", "CSS"],
         source : "https://github.com/tara122333/Tara_Resume",
         tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+        qrcode : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+
     },
         {
         title : "TaraBank Website",
@@ -29,6 +32,19 @@ const MajorProjects = () => {
         live : "https://tara122333.github.io/Bank-application",
         source : "https://github.com/tara122333/Bank-application",
         tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+        qrcode : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+
+    },
+        {
+        title : "Tara Movie House",
+        image : taraMovie,
+        description : "This is movie website build using HTML, CSS, JavaScript",
+        skills : [ "HTML", "CSS", "JavaScript", "React", "TailwindCss"],
+        live : "https://tara122333.github.io/book-my-show-clone",
+        source : "https://github.com/tara122333/book-my-show-clone",
+        tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+        qrcode : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+
     },
         {
         title : "Digital Clock",
@@ -38,6 +54,8 @@ const MajorProjects = () => {
         live : "https://tara122333.github.io/Digital-Clock/",
         source : "https://github.com/tara122333/Digital-Clock",
         tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+        qrcode : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+
     },
         {
         title : "Facebook Clone",
@@ -47,6 +65,8 @@ const MajorProjects = () => {
         live : "https://tara122333.github.io/Facebook-Clone/index.html",
         source : "https://github.com/tara122333/Facebook-Clone",
         tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+        qrcode : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+
     },
         {
         title : "Static Portfolio",
@@ -56,6 +76,8 @@ const MajorProjects = () => {
         live : "https://tara122333.github.io/portfolio-simple/",
         source : "https://github.com/tara122333/portfolio-simple",
         tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+        qrcode : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+
     },
         {
         title : "Zomato Landing Page",
@@ -65,6 +87,8 @@ const MajorProjects = () => {
         live : "https://tara122333.github.io/Zomato-website/",
         source : "https://github.com/tara122333/Zomato-website",
         tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+        qrcode : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+
     },
         {
         title : "Basic Calculator",
@@ -74,6 +98,9 @@ const MajorProjects = () => {
         live : "https://tara122333.github.io/Calculator/",
         source : "https://github.com/tara122333/Calculator",
         tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+        qrcode : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+
+        
     },
         {
         title : "Health House",
@@ -83,6 +110,7 @@ const MajorProjects = () => {
         live : "https://tarahouse.herokuapp.com/",
         source : "https://github.com/tara122333/Blood-Donation-Responsive-Website",
         tutorial : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+        qrcode : "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
     },
     ];
 

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import QRCodePoster from '../QRCode/QrcodePoster';
 
 const Projects = (props) => {
   return (
@@ -7,13 +8,13 @@ const Projects = (props) => {
             <div className='w-full rounded-t-lg h-40 md:h-44 lg:h-48'>
                 <img src={props.image} alt="project" className='w-full h-full rounded-t-lg' />
             </div>
-            <div className='py-5 px-3 w-full'>
+            <div className='py-5 px-3 w-full lg:h-72'>
                 <h1 className='text-xl text-tara-black'>
                     {
                         props.title
                     }
                 </h1>
-                <h3 className='text-base text-gray-500 h-20'>
+                <h3 className='text-base text-gray-500 '>
                     {
                         props.description
                     }
@@ -34,7 +35,7 @@ const Projects = (props) => {
                         }
                     </div>
                 </div>
-                <div className='flex gap-3 pt-6'>
+                <div className='flex gap-3 pt-6 h-40'>
                     <a href={props.live} target=" _blank">
                         <button className='bg-gradient-to-r border border-tara-orange from-tara-yellow to-tara-orange rounded-lg px-2 py-1 text-white shadow-lg lg:shadow-xl lg:px-4 shadow-tara-yellow hover:bg-gradient-to-r
                         hover:from-white hover:to-white hover:text-tara-yellow hover:shadow-none'>
@@ -54,6 +55,15 @@ const Projects = (props) => {
                         </button>
                     </a>
                 </div>  
+            </div>
+            <hr className='text-red-500 h-2 w-full'/>
+            <div className="hidden lg:block w-full rounded-t-lg h-44 ">
+                    {
+                        // props.qrcode.map((qr)=>(
+
+                            <QRCodePoster />
+                        // ))
+                    }
             </div>
         </div>
     </>
