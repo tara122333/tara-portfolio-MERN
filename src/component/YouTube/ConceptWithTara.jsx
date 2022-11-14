@@ -5,6 +5,15 @@ const ConceptWithTara = () => {
   const yt = [ 
     
     {
+      id : "EtagbfGJeQ8"
+    },
+    {
+      id : "X0km-zReIVc"
+    },
+    {
+      id : "0NgtZGPPRjc"
+    },
+    {
       id : "0NgtZGPPRjc"
     },
     {
@@ -39,15 +48,6 @@ const ConceptWithTara = () => {
     },
     {
       id : "GI4kmG_3tGo"
-    },
-    {
-      id : "D9tGExcTk3I"
-    },
-    {
-      id : "kUzNclcOv3A"
-    },
-    {
-      id : "tpxuIRsIso0"
     },
   ]
   return (
