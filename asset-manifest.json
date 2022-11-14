@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/tara-portfolio-MERN/static/css/main.078dec40.css",
-    "main.js": "/tara-portfolio-MERN/static/js/main.4680cdcd.js",
+    "main.css": "/tara-portfolio-MERN/static/css/main.4bd64c42.css",
+    "main.js": "/tara-portfolio-MERN/static/js/main.2c689fec.js",
     "static/media/tara.png": "/tara-portfolio-MERN/static/media/tara.20983bad24b62377c7b9.png",
     "static/media/blooddonation.png": "/tara-portfolio-MERN/static/media/blooddonation.dc5b769c41421a95b377.png",
+    "static/media/taraMovie.png": "/tara-portfolio-MERN/static/media/taraMovie.763ebe1c6442b06e017c.png",
     "static/media/zomatolandingpage.png": "/tara-portfolio-MERN/static/media/zomatolandingpage.03dd54643cde965497a3.png",
     "static/media/TarachandTcscertificate.pdf": "/tara-portfolio-MERN/static/media/TarachandTcscertificate.12f65e8801b461de079c.pdf",
     "static/media/tarabank.png": "/tara-portfolio-MERN/static/media/tarabank.c684df656e7b552e2d03.png",
@@ -32,11 +33,11 @@
     "static/media/slick.ttf": "/tara-portfolio-MERN/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tara-portfolio-MERN/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tara-portfolio-MERN/index.html",
-    "main.078dec40.css.map": "/tara-portfolio-MERN/static/css/main.078dec40.css.map",
-    "main.4680cdcd.js.map": "/tara-portfolio-MERN/static/js/main.4680cdcd.js.map"
+    "main.4bd64c42.css.map": "/tara-portfolio-MERN/static/css/main.4bd64c42.css.map",
+    "main.2c689fec.js.map": "/tara-portfolio-MERN/static/js/main.2c689fec.js.map"
   },
   "entrypoints": [
-    "static/css/main.078dec40.css",
-    "static/js/main.4680cdcd.js"
+    "static/css/main.4bd64c42.css",
+    "static/js/main.2c689fec.js"
   ]
 }
