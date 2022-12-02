@@ -6,6 +6,7 @@ import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 // import boy from "../../img/boy.png";
 import tara from "../../img/tara.png";
+import hero from "../../img/hero.JPG";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -48,6 +49,9 @@ const Hero = () => {
                         }}
                         />
                     </span>
+                </div>
+                <div className='md:hidden w-full rounded-lg'>
+                    <img src="https://i.ibb.co/yyzM0D6/tara-2.jpg" alt="hero"  className='w-full h-full rounded-lg'/>
                 </div>
                 <div className='my-2 lg:w-11/12'>
                 <span className='text-gray-600 md:text-xl'>MERN Stack Developer with Good level of experience in web designing and development, producting the Quality work</span>
@@ -97,7 +101,7 @@ const Hero = () => {
 
 
             
-            {/* <div className='hidden lg:flex relative w-full h-full lg:w-1/2'>
+            <div className='hidden lg:flex relative w-full h-full lg:w-1/2'>
                 <div className='absolute z-30 w-full h-80 lg:h-96 top-32 -left-5 md:scale-y-150 lg:scale-90 lg:top-20'>
                     <img src={Vector1} alt="vector" className='w-full h-full'/>
                 </div>
@@ -107,7 +111,7 @@ const Hero = () => {
                 </div>
                 <div className='absolute z-30 w-full top-32 -left-8 md:scale-75 md:-left-16 md:-top-24 lg:-top-20 lg:-left-4 lg:scale-90 -rotate-6'>
                     <div className='h-full w-full border-2 md:border-4 lg:border-8 border-x-tara-black rounded-full overflow-hidden'>
-                        <img src={tara} alt="vector" className='w-full h-full'/>
+                        <img src={hero} alt="vector" className='w-full h-full'/>
                     </div>
                 </div>
 
@@ -156,7 +160,7 @@ const Hero = () => {
                 </div>
                 <div className='absolute z-30 w-full top-32 -left-8 md:scale-75 md:-left-16 md:-top-24 lg:-top-20 lg:-left-4 lg:scale-90 -rotate-6'>
                     <div className='h-full w-full border-2 md:border-4 lg:border-8 border-x-tara-black rounded-full overflow-hidden'>
-                        <img src={tara} alt="vector" className='w-full h-full'/>
+                        <img src={Hero} alt="vector" className='w-full h-full'/>
                     </div>
                 </div>
 
@@ -190,6 +194,12 @@ const Hero = () => {
 
             <div className="relative w-96 h-72 rounded-full bg-tara-orange blur-3xl -z-10 left-2/4 -top-5" style={{ background: "rgb(138 210 255)" }}></div>
             <div className="relative w-96 h-72 rounded-full bg-tara-purple blur-3xl -z-10 top-96 -left-96" style={{ background: "rgb(238 210 255)" }}></div>
+            </div> 
+
+            {/* <div>
+                <div className='w-full h-96'>
+                    <img src="https://i.ibb.co/yyzM0D6/tara-2.jpg" alt="hero"  className='w-full h-full'/>
+                </div>
             </div> */}
         </div>
     </>
