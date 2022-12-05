@@ -18,21 +18,21 @@ const Testimonial = () => {
 
   const clients = [
     {
-      img : "https://media-exp1.licdn.com/dms/image/C4D03AQEGP1vPuIyDsA/profile-displayphoto-shrink_400_400/0/1659182274287?e=1669248000&v=beta&t=J82LU22N6-Dg72Vy1tPCRL5BEPmeVD-NQWdl8SqwXsE",
+      img : "https://media-exp1.licdn.com/dms/image/C4D03AQEGP1vPuIyDsA/profile-displayphoto-shrink_400_400/0/1659182274287?e=1675900800&v=beta&t=Ih-79MO7hchE7slWKW7IxXo8AYOk1PenEHg6tPRJq9k",
       name : "Harshit Bhardwaj",
       title : "Thank you for putting in the extra effort during this busy time. The client truly appreciates it and your positive attitude has helped us all stay motivated.", time : "1",
       company : "Hikup",
       link : "https://www.linkedin.com/in/harshitfeed"
     },
     {
-      img : "https://media-exp1.licdn.com/dms/image/C4D03AQE4pb7sTP4VrA/profile-displayphoto-shrink_400_400/0/1659178585900?e=1669248000&v=beta&t=quxNmG2xR7A-N-6T-nbaGOTL9DXPGDqpCd3JPWF8rGg",
+      img : "https://media-exp1.licdn.com/dms/image/D4D03AQHZeWDOBdUkJQ/profile-displayphoto-shrink_400_400/0/1666971201377?e=1675900800&v=beta&t=Bi7fCYqVj9xTTgocBvXgIq9t0lrdx4a5rtAK-TIjRXg",
       name : "Shubham Kumawat",
       title : "Tara, your work looks great! It is clear that you care about your work, and I appreciate that you asked the client about their design preferences before creating their website.", time : "1",
       company : "SkillsVertex",
       link : "https://www.linkedin.com/in/shubham-kumawat-b30651190"
     },
     {
-      img : "https://media-exp1.licdn.com/dms/image/C4D03AQEgvwyvYNsdDw/profile-displayphoto-shrink_400_400/0/1607794469961?e=1669248000&v=beta&t=3d09dvdsYI3zAUeY7BkOZhak2jZLOtpX12OfKmUp3m0",
+      img : "https://media-exp1.licdn.com/dms/image/C4D03AQEgvwyvYNsdDw/profile-displayphoto-shrink_400_400/0/1607794469961?e=1675900800&v=beta&t=aXOIEsRB5Zk80zY-bzk85tASRtt1FoxmJsD5YwVkbC4",
       name : "Shubham Sharma",
       title : "Satisfactory work in very short span of time. Professional developer. Liked it. Recommended👍🏻", time : "1",
       company : "ConceptWithTara",
@@ -40,14 +40,14 @@ const Testimonial = () => {
       
     },
     {
-      img : "https://media-exp1.licdn.com/dms/image/C5603AQFG01QeF1r9-w/profile-displayphoto-shrink_400_400/0/1630979302293?e=1669248000&v=beta&t=NQQSUt_bKjUwDwP-MIr2hPGN9Esl0k2s5wQ46URsQhA",
+      img : "https://media-exp1.licdn.com/dms/image/C5603AQFG01QeF1r9-w/profile-displayphoto-shrink_100_100/0/1630979302293?e=1675900800&v=beta&t=rRoSQy67BGZrbaycmof6zeis13o5Zh6BZubLAxgOFV8",
       name : "Shyam Sundar Kumawat",
       title : "You have been doing a great job lately. Thank you for being so flexible with projects and working hard to support your team members.", time : "1",
       company : "Samsung",
       link : "https://www.linkedin.com/in/shyamkumawat"
     },
     {
-      img : "https://media-exp1.licdn.com/dms/image/C5603AQEutBrqM9JcNA/profile-displayphoto-shrink_400_400/0/1634582037321?e=1669852800&v=beta&t=MIKf22Kj2FZHIZvx_SNM4FOFavQERSlwNRHEl6QR0qk",
+      img : "https://media-exp1.licdn.com/dms/image/C5603AQEutBrqM9JcNA/profile-displayphoto-shrink_400_400/0/1634582037321?e=1675900800&v=beta&t=00vIXe7xb2mEooKmXpUuyr7mZqzTY-UZZ6OhVN2rW4U",
       name : "Saransh Parashar",
       title : "The project met all my requirements completely and the developer was very helpful and polite in nature. Totally satisfied with my website and the project was completed in the time limit also. Great!!", time : "1",
       company : "ConceptWithTara",
