@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tara-portfolio-MERN/static/css/main.c4cfd672.css",
-    "main.js": "/tara-portfolio-MERN/static/js/main.e885d953.js",
+    "main.js": "/tara-portfolio-MERN/static/js/main.cf55fdf7.js",
     "static/media/hero.png": "/tara-portfolio-MERN/static/media/hero.7313a49c4c7d28e153ca.png",
     "static/media/blooddonation.png": "/tara-portfolio-MERN/static/media/blooddonation.dc5b769c41421a95b377.png",
     "static/media/taraMovie.png": "/tara-portfolio-MERN/static/media/taraMovie.763ebe1c6442b06e017c.png",
@@ -17,10 +17,10 @@
     "static/media/tcs.png": "/tara-portfolio-MERN/static/media/tcs.348d29a8d84703b3d27d.png",
     "static/media/calculator.png": "/tara-portfolio-MERN/static/media/calculator.da07f9a30c015e290f0e.png",
     "static/media/saas.png": "/tara-portfolio-MERN/static/media/saas.edc90029e1a32dbca4d9.png",
-    "static/media/TarachandSaasDekhocertificate.pdf": "/tara-portfolio-MERN/static/media/TarachandSaasDekhocertificate.68814dd8ef7658efe005.pdf",
     "static/media/fbclone.png": "/tara-portfolio-MERN/static/media/fbclone.c5ab205c037331f86f89.png",
     "static/media/resume.pdf": "/tara-portfolio-MERN/static/media/resume.5c518dab0abcf91e2a78.pdf",
     "static/media/digitalclock.png": "/tara-portfolio-MERN/static/media/digitalclock.52046f6b4ee1ab84eaa1.png",
+    "static/media/TarachandSaasDekhocertificate.pdf": "/tara-portfolio-MERN/static/media/TarachandSaasDekhocertificate.4d6dacb4318148dbd659.pdf",
     "static/media/humble.png": "/tara-portfolio-MERN/static/media/humble.c8b32b53675e68978981.png",
     "static/media/heartemoji.png": "/tara-portfolio-MERN/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
     "static/media/glasses.png": "/tara-portfolio-MERN/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
@@ -30,10 +30,10 @@
     "static/media/slick.woff": "/tara-portfolio-MERN/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tara-portfolio-MERN/index.html",
     "main.c4cfd672.css.map": "/tara-portfolio-MERN/static/css/main.c4cfd672.css.map",
-    "main.e885d953.js.map": "/tara-portfolio-MERN/static/js/main.e885d953.js.map"
+    "main.cf55fdf7.js.map": "/tara-portfolio-MERN/static/js/main.cf55fdf7.js.map"
   },
   "entrypoints": [
     "static/css/main.c4cfd672.css",
-    "static/js/main.e885d953.js"
+    "static/js/main.cf55fdf7.js"
   ]
 }
