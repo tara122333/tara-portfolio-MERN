@@ -32,7 +32,7 @@ const Testimonial = () => {
       link : "https://www.linkedin.com/in/shubham-kumawat-b30651190"
     },
     {
-      img : "https://media-exp1.licdn.com/dms/image/C4D03AQEgvwyvYNsdDw/profile-displayphoto-shrink_400_400/0/1607794469961?e=1675900800&v=beta&t=aXOIEsRB5Zk80zY-bzk85tASRtt1FoxmJsD5YwVkbC4",
+      img : "https://media.licdn.com/dms/image/D4D03AQEDTLNoP8Jxpg/profile-displayphoto-shrink_800_800/0/1684957189400?e=1691625600&v=beta&t=1IMB5rcwp-hSlhFx6qFdt_nzp8IKWdaDpyiPfGZADz8",
       name : "Shubham Sharma",
       title : "Satisfactory work in very short span of time. Professional developer. Liked it. Recommended👍🏻", time : "1",
       company : "ConceptWithTara",
