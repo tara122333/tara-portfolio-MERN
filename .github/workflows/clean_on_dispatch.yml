@@ -1,0 +1,14 @@
+name: clean_on_dispatch
+
+on: workflow_dispatch
+
+jobs:
+  clean:
+    uses: jalantechnologies/github-ci/.github/workflows/clean.yml@v1.4
+    concurrency:
+      group: ci-preview-${{ github.event.ref }}
+      cancel-in-progress: true
+    with:
+      app_name: zonesage-web-app
+      app_env: preview
+      branch: ${{ github.event.ref }}
