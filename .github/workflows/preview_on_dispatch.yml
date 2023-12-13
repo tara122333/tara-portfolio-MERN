@@ -1,0 +1,17 @@
+name: preview_on_dispatch
+
+on: workflow_dispatch
+
+jobs:
+  preview:
+    uses: jalantechnologies/github-ci/.github/workflows/ci.yml@v1.4
+    concurrency:
+      group: ci-preview-${{ github.event.ref }}
+      cancel-in-progress: true
+    with:
+      app_name: zonesage-web-app
+      app_env: preview
+      app_hostname: '{1}.preview-zonesage.platform.jalantechnologies.com'
+      branch: ${{ github.event.ref }}
+      build_args: |
+        NODE_CONFIG_ENV=preview
