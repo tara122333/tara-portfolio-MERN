@@ -2,15 +2,18 @@ import Navbar from "./component/Navbar/Navbar";
 import Hero from "./component/Hero/Hero";
 import Service from "./component/service/service";
 import Experience from "./component/Experience/Experience";
-import Work from "./component/Work/Work";
-import Portfolio from "./component/Projects/MiniProjects";
+// import Work from "./component/Work/Work";
+// import Portfolio from "./component/Projects/MiniProjects";
 import Testimonial from "./component/Testimonials/Testimonial";
-import Contact from "./component/Contact/Contact";
+// import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer/Footer";
-import MajorProjects from "./component/Projects/MajorProjects";
+// import MajorProjects from "./component/Projects/MajorProjects";
 import TotalProjects from "./component/Projects/TotalProjects";
 // import ConceptWithTara from "./component/YouTube/ConceptWithTara";
 import Certificate from "./component/Certificate/Certificate";
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import ProjectView from "./page/ProjectView";
 
 function App() {
   return (
@@ -57,4 +60,13 @@ function App() {
   );
 }
 
-export default App;
+const MainApp = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/tara-portfolio-MERN/major-projects" element={<ProjectView />} />
+    </Routes>
+);
+};
+
+export default MainApp;
