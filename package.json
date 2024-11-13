@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tara122333.github.io/",
+  "homepage": "https://tara122333.github.io/tara-portfolio-MERN",
   "dependencies": {
     "@headlessui/react": "^1.7.2",
     "@heroicons/react": "^2.0.11",
@@ -38,12 +38,6 @@
       "react-app/jest"
     ]
   },
-  "devDependencies": {
-    "autoprefixer": "^10.4.8",
-    "postcss": "^8.4.16",
-    "react-router-dom": "^6.28.0",
-    "tailwindcss": "^3.1.8"
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -55,5 +49,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "react-router-dom": "^6.28.0",
+    "tailwindcss": "^3.1.8"
   }
 }

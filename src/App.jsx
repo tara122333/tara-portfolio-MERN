@@ -63,7 +63,7 @@ function App() {
 const MainApp = () => {
   return (
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="*" element={<App />} />
       <Route path="/tara-portfolio-MERN/major-projects" element={<ProjectView />} />
     </Routes>
 );
