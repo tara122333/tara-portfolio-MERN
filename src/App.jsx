@@ -9,7 +9,7 @@ import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer/Footer";
 import MajorProjects from "./component/Projects/MajorProjects";
 import TotalProjects from "./component/Projects/TotalProjects";
-import ConceptWithTara from "./component/YouTube/ConceptWithTara";
+// import ConceptWithTara from "./component/YouTube/ConceptWithTara";
 import Certificate from "./component/Certificate/Certificate";
 
 function App() {
@@ -39,9 +39,9 @@ function App() {
         <Certificate />
       </div>
 
-      <div className="my-10 py-24 lg:py-56">
+      {/* <div className="my-10 py-24 lg:py-56">
         <ConceptWithTara />
-      </div>
+      </div> */}
 
       <div className="my-10 py-24 lg:py-56">
         <Testimonial />

@@ -28,10 +28,10 @@ const NavbarLG = () =>{
                             <Link activeClass="active" to="projects" spy={true} smooth={true}>
                             Projects
                             </Link></li>
-                            <li className='text-xl font-medium hover:text-tara-orange cursor-pointer'>
+                            {/* <li className='text-xl font-medium hover:text-tara-orange cursor-pointer'>
                             <Link activeClass="active" to="youtube" spy={true} smooth={true}>
                             ConceptWithTara
-                            </Link></li>
+                            </Link></li> */}
                             <li className='text-xl font-medium hover:text-tara-orange cursor-pointer'>
                             <Link activeClass="active" to="testimonial" spy={true} smooth={true}>
                             Testimonal

@@ -59,7 +59,7 @@ export default function Example() {
                         </button>
                 )}
             </Menu.Item>
-            <Menu.Item>
+            {/* <Menu.Item>
                 {({ active }) => (
                         <button
                         className="text-tara-black group flex w-full items-center rounded-md px-2 py-1 text-lg font-semibold"
@@ -67,10 +67,9 @@ export default function Example() {
                         <Link activeClass="active" to="youtube" spy={true} smooth={true}>
                             ConceptWithTara
                             </Link>
-                            {/* Experience */}
                         </button>
                 )}
-            </Menu.Item>
+            </Menu.Item> */}
             <Menu.Item>
                 {({ active }) => (
                         <button
