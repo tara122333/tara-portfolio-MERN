@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tara122333.github.io/tara-portfolio-MERN/",
+  "homepage": "/",
   "dependencies": {
     "@headlessui/react": "^1.7.2",
     "@heroicons/react": "^2.0.11",
