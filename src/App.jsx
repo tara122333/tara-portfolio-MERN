@@ -64,9 +64,12 @@ const MainApp = () => {
   return (
     <Routes>
       <Route path="*" element={<App />} />
-      <Route path="/tara-portfolio-MERN/major-projects" element={<ProjectView />} />
+      <Route
+        path="/tara-portfolio-MERN/major-projects"
+        element={<ProjectView />}
+      />
     </Routes>
-);
+  );
 };
 
 export default MainApp;

@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+/pending-work.js
+
 # production
 /build
 

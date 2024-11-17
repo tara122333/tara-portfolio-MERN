@@ -13,6 +13,16 @@ import taraMovie from "../image/taraMovie.png";
 const MajorProjects = () => {
   const proj = [
     {
+      title: "Tara Movie House",
+      image: taraMovie,
+      description: "This is movie website build using HTML, CSS, JavaScript",
+      skills: ["HTML", "CSS", "JavaScript", "React", "TailwindCss"],
+      live: "https://tara-my-cinema.netlify.app/",
+      source: "https://github.com/tara122333/book-my-show-clone",
+      tutorial: "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+      qrcode: "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
+    },
+    {
       title: "Zomato Landing Page",
       image: zomatolandingpage,
       description:
@@ -41,16 +51,6 @@ const MajorProjects = () => {
       live: "https://tara122333.github.io/Tara_Resume/",
       skills: ["HTML", "CSS"],
       source: "https://github.com/tara122333/Tara_Resume",
-      tutorial: "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
-      qrcode: "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
-    },
-    {
-      title: "Tara Movie House",
-      image: taraMovie,
-      description: "This is movie website build using HTML, CSS, JavaScript",
-      skills: ["HTML", "CSS", "JavaScript", "React", "TailwindCss"],
-      live: "https://tara122333.github.io/book-my-show-clone",
-      source: "https://github.com/tara122333/book-my-show-clone",
       tutorial: "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
       qrcode: "https://www.youtube.com/channel/UClcattAZ7ABgZpvUxAC_IVw",
     },
