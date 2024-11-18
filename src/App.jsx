@@ -14,6 +14,7 @@ import Certificate from "./component/Certificate/Certificate";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import ProjectView from "./page/ProjectView";
+import Contact from "./component/Contact/Contact";
 
 function App() {
   return (
@@ -40,6 +41,10 @@ function App() {
       </div>
       <div>
         <Certificate />
+      </div>
+
+      <div>
+        <Contact />
       </div>
 
       {/* <div className="my-10 py-24 lg:py-56">
