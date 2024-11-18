@@ -11,12 +11,19 @@ import Footer from "./component/Footer/Footer";
 import TotalProjects from "./component/Projects/TotalProjects";
 // import ConceptWithTara from "./component/YouTube/ConceptWithTara";
 import Certificate from "./component/Certificate/Certificate";
-import React from "react";
+import React, { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import ProjectView from "./page/ProjectView";
 import Contact from "./component/Contact/Contact";
+import emailjs from '@emailjs/browser';
 
 function App() {
+  useEffect(() => {
+    emailjs.init({
+      publicKey: 'dRa56tgRrdvYKSjIe',
+    });
+  }, []);
+
   return (
     <>
       <Navbar />

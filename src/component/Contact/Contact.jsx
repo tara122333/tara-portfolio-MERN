@@ -1,6 +1,39 @@
 import React from "react";
+import emailjs from "@emailjs/browser";
 import "./Contact.css";
 const Contact = () => {
+  const serviceID = process.env.REACT_APP_SERVICE_ID;
+  const templateID = process.env.REACT_APP_TEMPLATE_ID;
+
+  const [name, setName] = React.useState("");
+  const [email, setEmail] = React.useState("");
+  const [message, setMessage] = React.useState("");
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    if (name === "" || email === "" || message === "") {
+      alert("Please fill all the fields");
+      return;
+    } else {
+      emailjs.send(serviceID, templateID, {
+        to_name: name,
+        from_name: email,
+        message: `${message}`,
+      }).then(
+        function () {
+          alert("Email send SUCCESS!");
+        },
+        function () {
+          alert("Email send FAILED...");
+        }
+      );
+      setEmail("");
+      setName("");
+      setMessage("");
+    }
+
+  };
+
   return (
     <div className="flex w-full" id="contact">
       <div className="flex flex-col w-full gap-5 md:flex-wrap md:justify-center lg:container lg:mx-auto lg:px-16 px-3">
@@ -22,24 +55,33 @@ const Contact = () => {
               title="map"
             ></iframe>
           </div>
-          <form className="flex w-full lg:w-1/2 flex-col gap-3 lg:gap-6">
-            <input 
+          <form
+            className="flex w-full lg:w-1/2 flex-col gap-3 lg:gap-6"
+            onSubmit={sendEmail}
+          >
+            <input
               type="text"
               name="user_name"
               className="border-tara-yellow border-2 py-2 px-3 rounded-lg w-full"
               placeholder="Name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
             />
             <input
               type="email"
               name="user_email"
               className="border-tara-yellow border-2 py-2 px-3 rounded-lg w-full"
               placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
             <textarea
               name="message"
               className="border-tara-yellow border-2 py-2 px-3 rounded-lg w-full"
               placeholder="Message"
               rows={10}
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
             />
             <input
               type="submit"
