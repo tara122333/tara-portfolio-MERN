@@ -19,12 +19,12 @@ const Hero = () => {
                 onInit={(typewriter) => {
                   typewriter
                     .typeString(
-                      'Tara Chand Kumawat <strong style="font-size: 50px;"> </br>Full Stack Developer</strong>'
+                      'Tara Chand Kumawat <strong style="font-size: 50px;"> </br>Software Engineer</strong>'
                     )
                     .pauseFor(30)
-                    .deleteChars(20)
+                    .deleteChars(18)
                     .typeString(
-                      '<strong><span style="color: #27ae60; margin-top:15px; font-size: 50px;"></br> Software Development Engineer</span></strong>'
+                      '<strong><span style="color: #27ae60; margin-top:15px; font-size: 50px;"></br> Senior Software Engineer</span></strong>'
                     )
                     .pauseFor(100)
                     .start();

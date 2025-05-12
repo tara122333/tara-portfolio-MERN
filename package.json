@@ -1,8 +1,7 @@
 {
-  "name": "client",
-  "version": "0.1.0",
+  "name": "port-folio",
+  "version": "2.0.0",
   "private": true,
-  "homepage": "https://tara122333.github.io/tara-portfolio-MERN",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@headlessui/react": "^1.7.2",
@@ -10,9 +9,11 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "@gsap/react": "^2.1.2",
     "framer-motion": "^7.1.0",
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
+    "gsap": "^3.12.7",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-scripts": "5.0.1",

@@ -1,7 +1,7 @@
 import Navbar from "./component/Navbar/Navbar";
 import Hero from "./component/Hero/Hero";
 import Service from "./component/service/service";
-import Experience from "./component/Experience/Experience";
+// import Experience from "./component/Experience/Experience";
 // import Work from "./component/Work/Work";
 // import Portfolio from "./component/Projects/MiniProjects";
 import Testimonial from "./component/Testimonials/Testimonial";
@@ -16,6 +16,7 @@ import { Route, Routes } from "react-router-dom";
 import ProjectView from "./page/ProjectView";
 import Contact from "./component/Contact/Contact";
 import emailjs from '@emailjs/browser';
+import { Experience } from "./page/";
 
 function App() {
   useEffect(() => {
