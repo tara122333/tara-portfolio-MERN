@@ -1,70 +1,142 @@
-# Getting Started with Create React App
+<div align="center">
+  <br />
+    <a href="https://www.youtube.com/watch?v=E-fdPfRxkzQ" target="_blank">
+      <img src="public/images/readme.png" alt="Project Banner">
+    </a>
+  <br />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <div>
+    <img src="https://img.shields.io/badge/-Three.js-black?style=for-the-badge&logo=three.js&logoColor=white" />
+    <img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  </div>
 
-## Available Scripts
+  <h3 align="center">Interactive 3D Portfolio Website</h3>
 
-In the project directory, you can run:
+   <div align="center">
+     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+    </div>
+</div>
 
-### `npm start`
+## 📋 <a name="table">Table of Contents</a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
+5. 🔗 [Assets & Snippets](#links)
+6. 🚀 [More](#more)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚠️ Tutorial
 
-### `npm test`
+This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
-### `npm run build`
+<a href="https://www.youtube.com/watch?v=E-fdPfRxkzQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## <a name="introduction">🤖 Introduction</a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The 3D Portfolio project is a highly engaging personal website that features animated 3D scenes, smooth camera transitions, interactive model showcases, and responsive design. It’s ideal for developers, designers, or freelancers looking to stand out in the digital crowd.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
 
-### `npm run eject`
+<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Three.js
+- React Three Fiber
+- Drei
+- GSAP
+- Tailwind CSS
+- Vite
+- React 19
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## <a name="features">🔋 Features</a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Features of the 3D Portfolio Project
 
-## Learn More
+👉 Animated 3D models and reveal animations
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👉 Realistic lighting and shadows
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+👉 GSAP-powered scroll interactions
 
-### Code Splitting
+👉 Responsive design with Tailwind CSS and Flexbox/Grid
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👉 Micro Interactions
 
-### Analyzing the Bundle Size
+👉 Multi-section layout (About, Projects, Contact)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+👉 Mobile optimized 3D experience
 
-### Making a Progressive Web App
+and many more, including code architecture and reusability.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## <a name="quick-start">🤸 Quick Start</a>
 
-### Advanced Configuration
+Follow these steps to set up the project locally on your machine.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Prerequisites**
 
-### Deployment
+Make sure you have the following installed on your machine:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-### `npm run build` fails to minify
+**Cloning the Repository**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/adrianhajdin/3d-portfolio.git
+cd 3d-portfolio
+```
+
+**Installation**
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+**Set Up Environment Variables**
+
+Create a new file named `.env` in the root of your project and add the following content:
+
+```env
+VITE_APP_EMAILJS_SERVICE_ID=
+VITE_APP_EMAILJS_TEMPLATE_ID=
+VITE_APP_EMAILJS_PUBLIC_KEY=
+```
+
+Replace the placeholder values with your actual **[EmailJS](https://www.emailjs.com/)** credentials.
+
+**Running the Project**
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173/) in your browser to view the project.
+
+
+## <a name="links">🔗 Assets and Snippets</a>
+
+Assets and snippets used in the project can be found in the **[video kit](https://jsm.dev/pfolio25-kit)**.
+
+<a href="https://jsm.dev/pfolio25-kit" target="_blank">
+  <img src="public/images/readme-video-kit.png" alt="Video Kit Banner">
+</a>
+
+
+## <a name="more">🚀 More</a>
+
+**Advance your skills with JSM Pro Courses**
+
+Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
+detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+
+<a href="https://beta.jsmastery.pro/" target="_blank">
+  <img src="public/images/readme-bottom.png" alt="Project Banner">
+</a>
