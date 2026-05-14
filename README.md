@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Tara's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, animated personal portfolio website showcasing my work as a developer. Built with React 19, Vite, Three.js, and GSAP for immersive 3D visuals and smooth scroll-driven animations.
 
-## Available Scripts
+## Tech Stack
 
-In the project directory, you can run:
+- **Framework:** React 19 + Vite 6
+- **Styling:** Tailwind CSS 4
+- **3D / Graphics:** Three.js, React Three Fiber, Drei, Postprocessing
+- **Animations:** GSAP + @gsap/react
+- **Contact Form:** EmailJS
+- **Responsive Helpers:** react-responsive
+- **Linting:** ESLint 9
 
-### `npm start`
+## Sections
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Hero** — animated landing with 3D model
+- **Showcase** — featured project highlights
+- **Logo Showcase** — tools & brands
+- **Feature Cards** — what I do
+- **Experience** — work timeline
+- **Tech Stack** — technologies I use
+- **Testimonials** — feedback from collaborators
+- **Contact** — get in touch via EmailJS
+- **Footer**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js 18+ and npm
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/<your-username>/tara-portfolio-MERN.git
+cd tara-portfolio-MERN
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Environment Variables
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The contact form uses EmailJS. Create a `.env` file in the project root with:
 
-### `npm run eject`
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Scripts
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Command           | Description                              |
+| ----------------- | ---------------------------------------- |
+| `npm run dev`     | Start the Vite dev server                |
+| `npm run build`   | Build the production bundle to `dist/`   |
+| `npm run preview` | Preview the production build locally     |
+| `npm run lint`    | Run ESLint across the project            |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+tara-portfolio-MERN/
+├── public/
+│   ├── images/        # static images & icons
+│   └── models/        # 3D model assets (.glb, etc.)
+├── src/
+│   ├── components/    # reusable UI (NavBar, Button, GlowCard, ...)
+│   ├── constants/     # site content & config
+│   ├── sections/      # page sections (Hero, Experience, Contact, ...)
+│   ├── App.jsx
+│   ├── Main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+└── vite.config.js
+```
 
-## Learn More
+## Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The build output in `dist/` can be deployed to any static host (Vercel, Netlify, GitHub Pages, Cloudflare Pages, etc.).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm run build
+```
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Tara Chand Kumawat**
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you like this project, consider giving it a ⭐ on GitHub.
